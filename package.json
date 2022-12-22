@@ -1,0 +1,48 @@
+{
+  "name": "war-globe",
+  "version": "1.0.0",
+  "description": "war-globe application",
+  "main": "main.js",
+  "scripts": {
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder --publish never",
+    "start": "electron ."
+  },
+  "build": {
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thesourorange/War-Globe.git"
+  },
+  "keywords": [
+    "Electron",
+    "War",
+    "Globe"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "d3v4": "^4.2.2",
+    "topojson-client": "^3.1.0"
+  },
+  "devDependencies": {
+    "electron": "^21.2.0",
+    "electron-builder": "^23.6.0",
+    "node": "^19.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/thesourorange/war-globe/issues"
+  },
+  "homepage": "https://github.com/thesourorange/war-globe#readme"
+}

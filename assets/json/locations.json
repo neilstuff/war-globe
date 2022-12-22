@@ -1,0 +1,28 @@
+{ "1823": 
+    [{   "war": "Franco-Spanish", 
+        "attributes": [
+            {"latitude": 46.18700581, "longitude": 2.53618475, "deaths": 400, "color" : "steelblue"},
+            {"latitude": 40.24448626, "longitude": -3.64754874, "deaths": 600, "color" : "steelblue"}
+        ] 
+    }],
+    "1828": 
+    [{   "war": "First Russian-Turkish", 
+        "attributes": [
+            {"latitude": 61.98052168, "longitude": 96.68657347, "deaths": 50000, "color" : "steelblue"},
+            {"latitude": 39.06160342, "longitude": 35.16895529, "deaths": 80000, "color" : "steelblue"}
+        ] 
+    }],   
+    "1846": 
+    [{   "war": "Mexican-American", 
+        "attributes": [
+            {"latitude": 31.4911, "longitude": -99.358, "deaths": 13283, "color" : "steelblue"},
+            {"latitude": 23.94753932, "longitude": -102.5234504, "deaths": 6000, "color" : "steelblue"}
+        ] 
+    }],
+    "1848": 
+    [{   "war": "Austro-Sardinian", 
+        "attributes": [
+            {"latitude": 42.79663568, "longitude": 12.07000946, "deaths": 7527, "color" : "steelblue"}
+        ] 
+    }]
+}
