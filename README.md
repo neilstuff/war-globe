@@ -1,3 +1,3 @@
-# HP15C Calculator Emulator
+# War Globe
 
-This is a HP15C emulator including its programming capability
+A spinning globe that shows all the wars from the early 1800s to present.
