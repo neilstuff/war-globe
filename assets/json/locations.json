@@ -198,7 +198,7 @@
             "war": "Naval War",
             "color": "red",
             "attributes": [
-                { "latitude": -10.78777567, "longitude": -37.73069754, "deaths": 100, "color": "red" },
+                { "latitude": -37.73069754, "longitude": -71.38255879, "deaths": 100, "color": "red" },
                 { "latitude": 40.24448626, "longitude": -3.64754874, "deaths": 300, "color": "red" }
 
             ]
@@ -227,7 +227,7 @@
             "color": "red",
             "attributes": [
                 { "latitude": -9.15280281, "longitude": -74.38242889, "deaths": 600, "color": "red" },
-                { "latitude": -10.78777567, "longitude": -37.73069754, "deaths": 100, "color": "red" },
+                { "latitude": -37.73069754, "longitude": -71.38255879, "deaths": 100, "color": "red" },
                 { "latitude": 40.24448626, "longitude": -3.64754874, "deaths": 300, "color": "red" }
 
             ]
@@ -239,6 +239,16 @@
                 { "latitude": -23.22823896, "longitude": -58.40014084, "deaths": 200000, "color": "green" },
                 { "latitude": -10.78777567, "longitude": -53.09783199, "deaths": 100000, "color": "green" },
                 { "latitude": -35.38135347, "longitude": -65.17980881, "deaths": 10000, "color": "green" }
+
+            ]
+        },
+        {
+            "war": "Seven Weeks",
+            "color": "brown",
+            "attributes": [
+                { "latitude": 51.10697903, "longitude": 10.38577693, "deaths": 10000, "color": "brown" },
+                { "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 4000, "color": "brown" },
+                { "latitude": 49.13861, "longitude": 15.763035, "deaths": 28000, "color": "brown" }
 
             ]
         }
