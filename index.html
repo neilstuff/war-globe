@@ -51,7 +51,7 @@
 
 <body>
     <div style="position:static;">
-        <input class="slider" id="year" type="range" min="1823" max="1854" value="1823">
+        <input class="slider" id="year" type="range" min="1823" max="1860" value="1823">
     </div>
 
     <div id="statistics" class="normal" style="position:absolute; left:40px; width:220px; top:10px">
@@ -160,13 +160,13 @@
 
                 html += `<tr>`;
                 html += `<td><b>War</b></td>`;
-                html += `<td style="color:rgba(0,0,0,0.8)">${locations[year][location].war}</td>`
+                html += `<td style="color:${locations[year][location].color}">${locations[year][location].war}</td>`
                 html += `</tr>`;
-
                 html += `<tr>`;
                 html += `<td><b>Deaths</b></td>`;
-                html += `<td style="color:rgba(0,0,0,0.8)">${deaths}</td>`
+                html += `<td style="color:${locations[year][location].color}">${deaths}</td>`
                 html += `</tr>`;
+                html += `<tr><td>&nbsp;</td></tr>`;
 
             }
 
@@ -184,7 +184,7 @@
                 .attr('fill', d => {
                     const coordinate = [d.longitude, d.latitude];
                     gdistance = d3.geoDistance(coordinate, projection.invert(center));
-                    return gdistance > 1.57 ? 'none' : 'steelblue';
+                    return gdistance > 1.57 ? 'none' : d.color;
                 })
                 .attr('r', d => {
                     return Math.log(d.deaths) / 2
