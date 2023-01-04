@@ -390,7 +390,7 @@
             { "latitude": 50.63981435, "longitude": 4.64064572, "deaths": 13716, "color": "steelblue" },
             { "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 1700000, "color": "steelblue" },
             { "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 650000, "color": "steelblue" },
-            { "latitude": 45.67955203, "longitude": -112.4616706, "deaths": 116516, "color": "steelblue" },
+            { "latitude": 38.895, "longitude": -102.4616706, "deaths": 116516, "color": "steelblue" },
             { "latitude": 39.06160342, "longitude": 35.16895529, "deaths": 325000, "color": "steelblue" },
             { "latitude": 37.59230065, "longitude": 138.0308921, "deaths": 300, "color": "steelblue" },
             { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 1385000, "color": "steelblue" },
