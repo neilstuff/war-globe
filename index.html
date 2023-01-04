@@ -145,9 +145,11 @@
 
             var html = `<tr>`;
 
-            html += `<td><b>Year</b></td>`;
-            html += `<td style="color:rgba(0,0,0,0.8)">${year}</td>`;
+            html += `<td style="font-size:14px;"><b>Year</b></td>`;
+            html += `<td style="font-size:14px; color:rgba(0,0,0,0.8)">${year}</td>`;
             html += `</tr>`;
+
+            html += `<tr><td style="font-size:8px;">&nbsp;</td></tr>`;
 
             for (var location in locations[year]) {
                 wars = wars.concat(locations[year][location]["attributes"]);
