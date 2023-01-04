@@ -1,161 +1,201 @@
 <!DOCTYPE html>
 <style>
     input[type="range"] {
-    position:absolute;
-    -webkit-transform: rotate(90deg);
-    top:100px;
-}
-.normal {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-    font-size: 10px; 
-}
+        position: absolute;
+        transform: rotate(90deg);
+        top: 250px;
+        width: 500px;
+        height: 1px;
+        left: -240px;
+        background: white;
+        outline: none;
+    }
+    
+    .slider {
+        -webkit-appearance: none;
+        width: 10%;
+        height: 15px;
+        background: steelblue;
+        outline: none;
+        border: 2px solid steelblue;
+        border-radius: 8px;
+    }
+    /* for chrome/safari */
+    
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 5px;
+        height: 15px;
+        background: steelblue;
+        cursor: pointer;
+        border: 1px solid steelblue;
+        border-radius: 4px;
+    }
+    /* for firefox */
+    
+    .slider::-moz-range-thumb {
+        width: 5px;
+        height: 15px;
+        background: steelblue;
+        cursor: pointer;
+        border: 1px solid steelblue;
+    }
+    
+    .normal {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 10px;
+    }
 </style>
 <html>
-    <body>
-        <div style="position:static; top:10px; left:10px; width:40px; bottom:0px;">
-            <input id="year" type="range" min="1823" max="1848" value="1823">
-        </div>
 
-        <div id="statistics" class="normal" style="position:absolute; left:10px; width:220px; bottom:10px">
-            <table id="war-table">
-            </table>
-        </div>
-        <svg></svg>
-        <script src="node_modules/d3v4/build/d3.min.js"></script>
-        <script src="assets/javascripts/topojson.v1.js"></script>
-        <script>
+<body>
+    <div style="position:static;">
+        <input class="slider" id="year" type="range" min="1823" max="1848" value="1823">
+    </div>
 
-            const width = 760;
-            const height = 500;
+    <div id="statistics" class="normal" style="position:absolute; left:30px; width:220px; top:0px">
+        <table id="war-table">
+        </table>
+    </div>
+    <svg></svg>
+    <script src="node_modules/d3v4/build/d3.min.js"></script>
+    <script src="assets/javascripts/topojson.v1.js"></script>
+    <script>
+        const width = 760;
+        const height = 500;
 
-            var year = "1823";
+        var year = "1823";
 
-          	const config = {
-              speed: 0.005,
-              verticalTilt: -30,
-              horizontalTilt: 0
-            }
-            let locations = [];
-            const svg = d3.select('svg')
-                .attr('width', width).attr('height', height);
+        const config = {
+            speed: 0.005,
+            verticalTilt: -30,
+            horizontalTilt: 0
+        }
+        let locations = [];
+        const svg = d3.select('svg')
+            .attr('width', width).attr('height', height);
 
-            const markerGroup = svg.append('g');
-            
-            const projection = d3.geoOrthographic();
-            const initialScale = projection.scale();
-            const path = d3.geoPath().projection(projection);
-            const center = [width/2, height/2];
+        const markerGroup = svg.append('g');
 
-            drawGlobe();    
-            drawGraticule();
-            enableRotation(year);    
+        const projection = d3.geoOrthographic();
+        const initialScale = projection.scale();
+        const path = d3.geoPath().projection(projection);
+        const center = [width / 2, height / 2];
 
-            function drawGlobe() {  
-                d3.queue()
-                    .defer(d3.json, 'assets/json/world-110m.json')          
-                    .defer(d3.json, 'assets/json/locations.json')
-                    .await((error, worldData, locationData) => {
-                        svg.selectAll(".segment")
-                            .data(topojson.feature(worldData, worldData.objects.countries).features)
-                            .enter().append("path")
-                            .attr("class", "segment")
-                            .attr("d", path)
-                            .style("stroke", "#888")
-                            .style("stroke-width", "1px")
-                            .style("fill", (d, i) => '#e5e5e5')
-                            .style("opacity", ".6");
+        drawGlobe();
+        drawGraticule();
+        enableRotation(year);
+
+        function drawGlobe() {
+            d3.queue()
+                .defer(d3.json, 'assets/json/world-110m.json')
+                .defer(d3.json, 'assets/json/locations.json')
+                .await((error, worldData, locationData) => {
+                    svg.selectAll(".segment")
+                        .data(topojson.feature(worldData, worldData.objects.countries).features)
+                        .enter().append("path")
+                        .attr("class", "segment")
+                        .attr("d", path)
+                        .style("stroke", "#888")
+                        .style("stroke-width", "1px")
+                        .style("fill", (d, i) => '#e5e5e5')
+                        .style("opacity", ".6");
 
                     locations = locationData;
-                    drawMarkers(document.getElementById("year").value);     
-
-                });
-                    
-            }
-
-            function drawGraticule() {
-                const graticule = d3.geoGraticule()
-                    .step([10, 10]);
-
-                svg.append("path")
-                    .datum(graticule)
-                    .attr("class", "graticule")
-                    .attr("d", path)
-                    .style("fill", "#fff")
-                    .style("stroke", "#ccc");
-            }
-
-            function enableRotation() {
-                d3.timer(function (elapsed) {
-                    projection.rotate([config.speed * elapsed - 120, config.verticalTilt, config.horizontalTilt]);
-                    svg.selectAll("path").attr("d", path);
                     drawMarkers(document.getElementById("year").value);
+
                 });
-            }        
 
-            function drawMarkers(year) {
+        }
 
-                markerGroup.selectAll('circle').remove();
+        function drawGraticule() {
+            const graticule = d3.geoGraticule()
+                .step([10, 10]);
 
-                if (!(year in locations)) {
-                    document.getElementById("statistics").style.display = "none";
-                    return;
+            svg.append("path")
+                .datum(graticule)
+                .attr("class", "graticule")
+                .attr("d", path)
+                .style("fill", "#fff")
+                .style("stroke", "#ccc");
+        }
+
+        function enableRotation() {
+            d3.timer(function(elapsed) {
+                projection.rotate([config.speed * elapsed - 120, config.verticalTilt, config.horizontalTilt]);
+                svg.selectAll("path").attr("d", path);
+                drawMarkers(document.getElementById("year").value);
+            });
+        }
+
+        function drawMarkers(year) {
+
+            markerGroup.selectAll('circle').remove();
+
+            if (!(year in locations)) {
+                document.getElementById("statistics").style.display = "none";
+                return;
+            }
+
+            document.getElementById("statistics").style.display = "inline-block";
+            var wars = [];
+            var deaths = 0;
+
+
+            var html = `<tr>`;
+
+            html += `<td><b>Year</b></td>`;
+            html += `<td>${year}</td>`;
+            html += `</tr>`;
+
+            for (var location in locations[year]) {
+                wars = wars.concat(locations[year][location]["attributes"]);
+
+                for (var battles in wars) {
+
+                    deaths += wars[battles].deaths;
+
                 }
 
-                document.getElementById("statistics").style.display = "inline-block";
-                var wars = [];
-                var deaths = 0;
-                
-                                              
-                var html = `<tr>`;
-                
-                html += `<td>Year</td>`;
-                html += `<td><b>${year}</b></td>`;
+                html += `<tr>`;
+                html += `<td><b>War</b></td>`;
+                html += `<td>${locations[year][location].war}</td>`
                 html += `</tr>`;
-                
-                for (var location in locations[year]) {
-                    wars = wars.concat(locations[year][location]["attributes"]);
-          
-                    for(var battles in wars) {
 
-                        deaths += wars[battles].deaths;
-
-                    }                   
-                    
-                    html += `<tr>`;
-                    html += `<td>War</td>`;
-                    html += `<td ><b>${locations[year][location].war}</b></td>`
-                    html += `</tr>`;
-
-                    html += `<tr>`;
-                    html += `<td>Deaths</td>`;
-                    html += `<td ><b>${deaths}</b></td>`
-                    html += `</tr>`;
-
-                }
-
-                document.getElementById("war-table").innerHTML = html;
-               
-                const markers = markerGroup.selectAll('circle')
-                    .data(wars);
-
-                markers
-                    .enter()
-                    .append('circle')
-                    .merge(markers)
-                    .attr('cx', d => projection([d.longitude, d.latitude])[0])
-                    .attr('cy', d => projection([d.longitude, d.latitude])[1])
-                    .attr('fill', d => {
-                        const coordinate = [d.longitude, d.latitude];
-                        gdistance = d3.geoDistance(coordinate, projection.invert(center));
-                        return gdistance > 1.57 ? 'none' : 'steelblue';
-                    })
-                    .attr('r', d => {return Math.log(d.deaths)/2});
-
-                markerGroup.each(function () {
-                    this.parentNode.appendChild(this);
-                });
+                html += `<tr>`;
+                html += `<td><b>Deaths</b></td>`;
+                html += `<td >${deaths}</td>`
+                html += `</tr>`;
 
             }
-        </script>
-    </body>
+
+            document.getElementById("war-table").innerHTML = html;
+
+            const markers = markerGroup.selectAll('circle')
+                .data(wars);
+
+            markers
+                .enter()
+                .append('circle')
+                .merge(markers)
+                .attr('cx', d => projection([d.longitude, d.latitude])[0])
+                .attr('cy', d => projection([d.longitude, d.latitude])[1])
+                .attr('fill', d => {
+                    const coordinate = [d.longitude, d.latitude];
+                    gdistance = d3.geoDistance(coordinate, projection.invert(center));
+                    return gdistance > 1.57 ? 'none' : 'steelblue';
+                })
+                .attr('r', d => {
+                    return Math.log(d.deaths) / 2
+                });
+
+            markerGroup.each(function() {
+                this.parentNode.appendChild(this);
+            });
+
+        }
+    </script>
+</body>
+
 </html>
