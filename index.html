@@ -3,8 +3,8 @@
     input[type="range"] {
         position: absolute;
         transform: rotate(90deg);
-        top: 250px;
-        width: 500px;
+        top: 260px;
+        width: 510px;
         height: 1px;
         left: -240px;
         background: white;
@@ -17,7 +17,7 @@
         height: 15px;
         background: steelblue;
         outline: none;
-        border: 2px solid steelblue;
+        border: 1px solid lightblue;
         border-radius: 8px;
     }
     /* for chrome/safari */
@@ -29,7 +29,7 @@
         height: 15px;
         background: steelblue;
         cursor: pointer;
-        border: 1px solid steelblue;
+        border: 1px solid lightblue;
         border-radius: 4px;
     }
     /* for firefox */
@@ -51,10 +51,10 @@
 
 <body>
     <div style="position:static;">
-        <input class="slider" id="year" type="range" min="1823" max="1848" value="1823">
+        <input class="slider" id="year" type="range" min="1823" max="1854" value="1823">
     </div>
 
-    <div id="statistics" class="normal" style="position:absolute; left:30px; width:220px; top:0px">
+    <div id="statistics" class="normal" style="position:absolute; left:40px; width:220px; top:10px">
         <table id="war-table">
         </table>
     </div>
@@ -146,7 +146,7 @@
             var html = `<tr>`;
 
             html += `<td><b>Year</b></td>`;
-            html += `<td>${year}</td>`;
+            html += `<td style="color:rgba(0,0,0,0.8)">${year}</td>`;
             html += `</tr>`;
 
             for (var location in locations[year]) {
@@ -160,12 +160,12 @@
 
                 html += `<tr>`;
                 html += `<td><b>War</b></td>`;
-                html += `<td>${locations[year][location].war}</td>`
+                html += `<td style="color:rgba(0,0,0,0.8)">${locations[year][location].war}</td>`
                 html += `</tr>`;
 
                 html += `<tr>`;
                 html += `<td><b>Deaths</b></td>`;
-                html += `<td >${deaths}</td>`
+                html += `<td style="color:rgba(0,0,0,0.8)">${deaths}</td>`
                 html += `</tr>`;
 
             }

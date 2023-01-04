@@ -1,28 +1,53 @@
-{ "1823": 
-    [{   "war": "Franco-Spanish", 
+{
+    "1823": [{
+        "war": "Franco-Spanish",
         "attributes": [
-            {"latitude": 46.18700581, "longitude": 2.53618475, "deaths": 400, "color" : "steelblue"},
-            {"latitude": 40.24448626, "longitude": -3.64754874, "deaths": 600, "color" : "steelblue"}
-        ] 
+            { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 400, "color": "steelblue" },
+            { "latitude": 40.24448626, "longitude": -3.64754874, "deaths": 600, "color": "steelblue" }
+        ]
     }],
-    "1828": 
-    [{   "war": "First Russian-Turkish", 
+    "1828": [{
+        "war": "First Russian-Turkish",
         "attributes": [
-            {"latitude": 61.98052168, "longitude": 96.68657347, "deaths": 50000, "color" : "steelblue"},
-            {"latitude": 39.06160342, "longitude": 35.16895529, "deaths": 80000, "color" : "steelblue"}
-        ] 
-    }],   
-    "1846": 
-    [{   "war": "Mexican-American", 
-        "attributes": [
-            {"latitude": 31.4911, "longitude": -99.358, "deaths": 13283, "color" : "steelblue"},
-            {"latitude": 23.94753932, "longitude": -102.5234504, "deaths": 6000, "color" : "steelblue"}
-        ] 
+            { "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 50000, "color": "steelblue" },
+            { "latitude": 39.06160342, "longitude": 35.16895529, "deaths": 80000, "color": "steelblue" }
+        ]
     }],
-    "1848": 
-    [{   "war": "Austro-Sardinian", 
+    "1846": [{
+        "war": "Mexican-American",
         "attributes": [
-            {"latitude": 42.79663568, "longitude": 12.07000946, "deaths": 7527, "color" : "steelblue"}
-        ] 
+            { "latitude": 31.4911, "longitude": -99.358, "deaths": 13283, "color": "steelblue" },
+            { "latitude": 23.94753932, "longitude": -102.5234504, "deaths": 6000, "color": "steelblue" }
+        ]
+    }],
+    "1848": [{
+        "war": "Austro-Sardinian",
+        "attributes": [
+            { "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 7527, "color": "steelblue" }
+        ]
+    }],
+    "1849": [{
+        "war": "Roman Republic",
+        "attributes": [
+            { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 100, "color": "steelblue" },
+            { "latitude": 41.90174097, "longitude": 12.43386255, "deaths": 1400, "color": "steelblue" }
+        ]
+    }],
+    "1853": [{
+        "war": "La Plata",
+        "attributes": [
+            { "latitude": -10.78777567, "longitude": -53.09783199, "deaths": 500, "color": "steelblue" },
+            { "latitude": -35.38135347, "longitude": -65.17980881, "deaths": 800, "color": "steelblue" }
+        ]
+    }],
+    "1854": [{
+        "war": "Crimean",
+        "attributes": [
+            { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 95000, "color": "steelblue" },
+            { "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 22000, "color": "steelblue" },
+            { "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 2200, "color": "steelblue" },
+            { "latitude": 39.06160342, "longitude": 35.16895529, "deaths": 45000, "color": "steelblue" },
+            { "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 100000, "color": "steelblue" }
+        ]
     }]
 }
