@@ -377,5 +377,27 @@
             { "latitude": -16.70814536, "longitude": -64.6853892, "deaths": 920, "color": "steelblue" },
             { "latitude": -37.73069754, "longitude": -71.38255879, "deaths": 3276, "color": "steelblue" }
         ]
+    }],
+    "1916": [{
+        "war": "World War I",
+        "color": "steelblue",
+        "attributes": [
+            { "latitude": 39.59550247, "longitude": -8.50105506, "deaths": 7222, "color": "steelblue" },
+            { "latitude": 54.12387156, "longitude": -64.6853892, "deaths": 908371, "color": "steelblue" },
+            { "latitude": 45.85242939, "longitude": 24.97293286, "deaths": 335706, "color": "steelblue" },
+            { "latitude": 42.76889988, "longitude": 25.21552327, "deaths": 87500, "color": "steelblue" },
+            { "latitude": 51.10697903, "longitude": 10.38577693, "deaths": 1773700, "color": "steelblue" },
+            { "latitude": 50.63981435, "longitude": 4.64064572, "deaths": 13716, "color": "steelblue" },
+            { "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 1700000, "color": "steelblue" },
+            { "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 650000, "color": "steelblue" },
+            { "latitude": 45.67955203, "longitude": -112.4616706, "deaths": 116516, "color": "steelblue" },
+            { "latitude": 39.06160342, "longitude": 35.16895529, "deaths": 325000, "color": "steelblue" },
+            { "latitude": 37.59230065, "longitude": 138.0308921, "deaths": 300, "color": "steelblue" },
+            { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 1385000, "color": "steelblue" },
+            { "latitude": 39.07466973, "longitude": 22.95556207, "deaths": 1385000, "color": "steelblue" },
+            { "latitude": 50.8798, "longitude": 4.70052, "deaths": 1200000, "color": "steelblue" }
+        ]
     }]
+
+
 }
