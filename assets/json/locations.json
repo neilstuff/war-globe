@@ -336,6 +336,22 @@
 
             ]
         }
-    ]
+    ],
+    "1871": [{
+        "war": "Franco-Prussian",
+        "color": "red",
+        "attributes": [
+            { "latitude": 51.10697903, "longitude": 10.38577693, "deaths": 44781, "color": "red" },
+            { "latitude": 48.18700581, "longitude": 2.53618475, "deaths": 152000, "color": "red" }
+        ]
+    }],
+    "1876": [{
+        "war": "First Central American",
+        "color": "steelblue",
+        "attributes": [
+            { "latitude": 13.73944008, "longitude": -88.87164456, "deaths": 2000, "color": "steelblue" },
+            { "latitude": 15.69404158, "longitude": -90.36482288, "deaths": 2000, "color": "steelblue" }
+        ]
+    }]
 
 }
