@@ -15,7 +15,23 @@
             { "latitude": 39.06160342, "longitude": 35.16895529, "deaths": 80000, "color": "steelblue" }
         ]
     }],
+    "1829": [{
+        "war": "First Russian-Turkish",
+        "color": "steelblue",
+        "attributes": [
+            { "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 50000, "color": "steelblue" },
+            { "latitude": 39.06160342, "longitude": 35.16895529, "deaths": 80000, "color": "steelblue" }
+        ]
+    }],
     "1846": [{
+        "war": "Mexican-American",
+        "color": "steelblue",
+        "attributes": [
+            { "latitude": 31.4911, "longitude": -99.358, "deaths": 13283, "color": "steelblue" },
+            { "latitude": 23.94753932, "longitude": -102.5234504, "deaths": 6000, "color": "steelblue" }
+        ]
+    }],
+    "1847": [{
         "war": "Mexican-American",
         "color": "steelblue",
         "attributes": [
@@ -57,14 +73,37 @@
             { "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 100000, "color": "steelblue" }
         ]
     }],
-    "1856": [{
-        "war": "Anglo-Persian",
+    "1855": [{
+        "war": "Crimean",
         "color": "steelblue",
         "attributes": [
-            { "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 500, "color": "steelblue" },
-            { "latitude": 32.57503287, "longitude": 54.27407071, "deaths": 1500, "color": "steelblue" }
+            { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 95000, "color": "steelblue" },
+            { "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 22000, "color": "steelblue" },
+            { "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 2200, "color": "steelblue" },
+            { "latitude": 39.06160342, "longitude": 35.16895529, "deaths": 45000, "color": "steelblue" },
+            { "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 100000, "color": "steelblue" }
         ]
     }],
+    "1856": [{
+            "war": "Crimean",
+            "color": "steelblue",
+            "attributes": [
+                { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 95000, "color": "steelblue" },
+                { "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 22000, "color": "steelblue" },
+                { "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 2200, "color": "steelblue" },
+                { "latitude": 39.06160342, "longitude": 35.16895529, "deaths": 45000, "color": "steelblue" },
+                { "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 100000, "color": "steelblue" }
+            ]
+        },
+        {
+            "war": "Anglo-Persian",
+            "color": "red",
+            "attributes": [
+                { "latitude": 56.12387156, "longitude": -2.86563362, "deaths": 500, "color": "red" },
+                { "latitude": 32.57503287, "longitude": 54.27407071, "deaths": 1500, "color": "red" }
+            ]
+        }
+    ],
     "1859": [{
             "war": "Italian Unification",
             "color": "steelblue",
@@ -96,5 +135,54 @@
         "attributes": [
             { "latitude": 37.79663568, "longitude": 14.07000946, "deaths": 1000, "color": "red" }
         ]
+    }],
+    "1862": [{
+        "war": "Franco-Mexican",
+        "color": "steelblue",
+        "attributes": [
+            { "latitude": 23.94753932, "longitude": -102.5234504, "deaths": 12000, "color": "steelblue" },
+            { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 8000, "color": "steelblue" }
+        ]
+    }],
+    "1863": [{
+        "war": "Franco-Mexican",
+        "color": "steelblue",
+        "attributes": [
+            { "latitude": 23.94753932, "longitude": -102.5234504, "deaths": 12000, "color": "steelblue" },
+            { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 8000, "color": "steelblue" }
+        ]
+    }],
+    "1864": [{
+        "war": "Franco-Mexican",
+        "color": "steelblue",
+        "attributes": [
+            { "latitude": 23.94753932, "longitude": -102.5234504, "deaths": 12000, "color": "steelblue" },
+            { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 8000, "color": "steelblue" }
+        ]
+    }],
+    "1865": [{
+        "war": "Franco-Mexican",
+        "color": "steelblue",
+        "attributes": [
+            { "latitude": 23.94753932, "longitude": -102.5234504, "deaths": 12000, "color": "steelblue" },
+            { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 8000, "color": "steelblue" }
+        ]
+    }],
+    "1866": [{
+        "war": "Franco-Mexican",
+        "color": "steelblue",
+        "attributes": [
+            { "latitude": 23.94753932, "longitude": -102.5234504, "deaths": 12000, "color": "steelblue" },
+            { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 8000, "color": "steelblue" }
+        ]
+    }],
+    "1867": [{
+        "war": "Franco-Mexican",
+        "color": "steelblue",
+        "attributes": [
+            { "latitude": 23.94753932, "longitude": -102.5234504, "deaths": 12000, "color": "steelblue" },
+            { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 8000, "color": "steelblue" }
+        ]
     }]
+
 }
