@@ -3,104 +3,114 @@
         "war": "Franco-Spanish",
         "color": "steelblue",
         "attributes": [
-            { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 400, "color": "steelblue" },
-            { "latitude": 40.24448626, "longitude": -3.64754874, "deaths": 600, "color": "steelblue" }
+            { "country":"FRA", "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 400, "color": "steelblue" },
+            { "country":"ESP", "latitude": 40.24448626, "longitude": -3.64754874, "deaths": 600, "color": "steelblue" }
         ]
     }],
     "1828": [{
         "war": "First Russian-Turkish",
         "color": "steelblue",
         "attributes": [
-            { "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 50000, "color": "steelblue" },
-            { "latitude": 39.06160342, "longitude": 35.16895529, "deaths": 80000, "color": "steelblue" }
+            { "country":"RUS", "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 50000, "color": "steelblue" },
+            { "country":"TUR", "latitude": 39.06160342, "longitude": 35.16895529, "deaths": 80000, "color": "steelblue" }
         ]
     }],
     "1829": [{
         "war": "First Russian-Turkish",
         "color": "steelblue",
         "attributes": [
-            { "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 50000, "color": "steelblue" },
-            { "latitude": 39.06160342, "longitude": 35.16895529, "deaths": 80000, "color": "steelblue" }
+            { "country":"RUS", "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 50000, "color": "steelblue" },
+            { "country":"TUR", "latitude": 39.06160342, "longitude": 35.16895529, "deaths": 80000, "color": "steelblue" }
         ]
     }],
     "1846": [{
         "war": "Mexican-American",
         "color": "steelblue",
         "attributes": [
-            { "latitude": 31.4911, "longitude": -99.358, "deaths": 13283, "color": "steelblue" },
-            { "latitude": 23.94753932, "longitude": -102.5234504, "deaths": 6000, "color": "steelblue" }
+            { "country":"MEX", "latitude": 31.4911, "longitude": -99.358, "deaths": 13283, "color": "steelblue" },
+            { "country":"USA", "latitude": 23.94753932, "longitude": -102.5234504, "deaths": 6000, "color": "steelblue" }
         ]
     }],
     "1847": [{
         "war": "Mexican-American",
         "color": "steelblue",
         "attributes": [
-            { "latitude": 31.4911, "longitude": -99.358, "deaths": 13283, "color": "steelblue" },
-            { "latitude": 23.94753932, "longitude": -102.5234504, "deaths": 6000, "color": "steelblue" }
-        ]
+            { "country":"MEX", "latitude": 31.4911, "longitude": -99.358, "deaths": 13283, "color": "steelblue" },
+            { "country":"USA", "latitude": 23.94753932, "longitude": -102.5234504, "deaths": 6000, "color": "steelblue" }
+     ]
     }],
     "1848": [{
         "war": "Austro-Sardinian",
         "color": "steelblue",
         "attributes": [
-            { "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 7527, "color": "steelblue" }
+            { "country":"AUT", "latitude": 48.210033, "longitude":  16.363449, "deaths": 13283, "color": "steelblue" },
+            { "country":"ITA", "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 7527, "color": "steelblue" }
+        ]
+    },
+    {
+        "war": "First Schleswig-Holstein",
+        "color": "steelblue",
+        "attributes": [
+            { "country":"DNK", "latitude": 55.98126391, "longitude": 10.02799418, "deaths": 3500, "color": "steelblue" },
+            { "country":"DEU", "latitude": 51.10697903, "longitude": 10.38577693, "deaths": 2500, "color": "steelblue" }
         ]
     }],
     "1849": [{
         "war": "Roman Republic",
         "color": "steelblue",
         "attributes": [
-            { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 100, "color": "steelblue" },
-            { "latitude": 41.90174097, "longitude": 12.43386255, "deaths": 1400, "color": "steelblue" }
+            { "country":"FRA", "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 100, "color": "steelblue" },
+            { "country":"AUT", "latitude": 48.210033, "longitude":  16.363449, "deaths": 100, "color": "steelblue" },
+            { "country":"VAT", "latitude": 41.90174097, "longitude": 12.43386255, "deaths": 1400, "color": "steelblue" }
         ]
     }],
     "1853": [{
         "war": "La Plata",
         "color": "steelblue",
         "attributes": [
-            { "latitude": -10.78777567, "longitude": -53.09783199, "deaths": 500, "color": "steelblue" },
-            { "latitude": -35.38135347, "longitude": -65.17980881, "deaths": 800, "color": "steelblue" }
+            {"country":"BRA",  "latitude": -10.78777567, "longitude": -53.09783199, "deaths": 500, "color": "steelblue" },
+            {"country":"ARG", "latitude": -35.38135347, "longitude": -65.17980881, "deaths": 800, "color": "steelblue" }
         ]
     }],
     "1854": [{
         "war": "Crimean",
         "color": "steelblue",
         "attributes": [
-            { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 95000, "color": "steelblue" },
-            { "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 22000, "color": "steelblue" },
-            { "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 2200, "color": "steelblue" },
-            { "latitude": 39.06160342, "longitude": 35.16895529, "deaths": 45000, "color": "steelblue" },
-            { "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 100000, "color": "steelblue" }
+            { "country":"FRA", "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 95000, "color": "steelblue" },
+            { "country":"ITA", "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 2200, "color": "steelblue" },
+            { "country":"GBR", "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 22000, "color": "steelblue" },
+            { "country":"TUR", "latitude": 39.06160342, "longitude": 35.16895529, "deaths": 45000, "color": "steelblue" },
+            { "country":"RUS", "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 100000, "color": "steelblue" }
         ]
     }],
     "1855": [{
         "war": "Crimean",
         "color": "steelblue",
         "attributes": [
-            { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 95000, "color": "steelblue" },
-            { "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 22000, "color": "steelblue" },
-            { "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 2200, "color": "steelblue" },
-            { "latitude": 39.06160342, "longitude": 35.16895529, "deaths": 45000, "color": "steelblue" },
-            { "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 100000, "color": "steelblue" }
-        ]
+            { "country":"FRA", "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 95000, "color": "steelblue" },
+            { "country":"ITA", "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 2200, "color": "steelblue" },
+            { "country":"GBR", "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 22000, "color": "steelblue" },
+            { "country":"TUR", "latitude": 39.06160342, "longitude": 35.16895529, "deaths": 45000, "color": "steelblue" },
+            { "country":"RUS", "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 100000, "color": "steelblue" }
+       ]
     }],
     "1856": [{
             "war": "Crimean",
             "color": "steelblue",
             "attributes": [
-                { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 95000, "color": "steelblue" },
-                { "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 22000, "color": "steelblue" },
-                { "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 2200, "color": "steelblue" },
-                { "latitude": 39.06160342, "longitude": 35.16895529, "deaths": 45000, "color": "steelblue" },
-                { "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 100000, "color": "steelblue" }
-            ]
+                { "country":"FRA", "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 95000, "color": "steelblue" },
+                { "country":"ITA", "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 2200, "color": "steelblue" },
+                { "country":"GBR", "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 22000, "color": "steelblue" },
+                { "country":"TUR", "latitude": 39.06160342, "longitude": 35.16895529, "deaths": 45000, "color": "steelblue" },
+                { "country":"RUS", "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 100000, "color": "steelblue" }
+              ]
         },
         {
             "war": "Anglo-Persian",
             "color": "red",
             "attributes": [
-                { "latitude": 56.12387156, "longitude": -2.86563362, "deaths": 500, "color": "red" },
-                { "latitude": 32.57503287, "longitude": 54.27407071, "deaths": 1500, "color": "red" }
+                { "country":"GBR", "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 500, "color": "red" },
+                { "country":"IRN", "latitude": 32.57503287, "longitude": 54.27407071, "deaths": 1500, "color": "red" }
             ]
         }
     ],
@@ -108,17 +118,17 @@
             "war": "Italian Unification",
             "color": "steelblue",
             "attributes": [
-                { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 7500, "color": "steelblue" },
-                { "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 2500, "color": "steelblue" },
-                { "latitude": 41.24448626, "longitude": -3.64754874, "deaths": 10000, "color": "steelblue" }
+                { "country":"FRA", "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 7500, "color": "steelblue" },
+                { "country":"ITA", "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 2500, "color": "steelblue" },
+                { "country":"AUT", "latitude": 41.24448626, "longitude": -3.64754874, "deaths": 10000, "color": "steelblue" }
             ]
         },
         {
             "war": "First Spanish-Moroccan",
             "color": "red",
             "attributes": [
-                { "latitude": 38.24448626, "longitude": -3.64754874, "deaths": 4000, "color": "red" },
-                { "latitude": 29.83762793, "longitude": -8.45616045, "deaths": 10000, "color": "red" }
+                { "country":"ESP", "latitude": 38.24448626, "longitude": -3.64754874, "deaths": 4000, "color": "red" },
+                { "country":"MAR", "latitude": 29.83762793, "longitude": -8.45616045, "deaths": 10000, "color": "red" }
             ]
         }
     ],
@@ -126,38 +136,38 @@
         "war": "Italian-Roman",
         "color": "steelblue",
         "attributes": [
-            { "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 300, "color": "steelblue" },
-            { "latitude": 41.90174097, "longitude": 12.43386255, "deaths": 700, "color": "steelblue" }
+            { "country":"ITA", "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 300, "color": "steelblue" },
+            { "country":"VAT", "latitude": 41.90174097, "longitude": 12.43386255, "deaths": 700, "color": "steelblue" }
         ]
     }, {
         "war": "Neapolitan",
         "color": "red",
         "attributes": [
-            { "latitude": 37.79663568, "longitude": 14.07000946, "deaths": 1000, "color": "red" }
+            { "country":"ITA", "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 1000, "color": "red" }
         ]
     }],
     "1862": [{
         "war": "Franco-Mexican",
         "color": "steelblue",
         "attributes": [
-            { "latitude": 23.94753932, "longitude": -102.5234504, "deaths": 12000, "color": "steelblue" },
-            { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 8000, "color": "steelblue" }
+            { "country":"MEX", "latitude": 23.94753932, "longitude": -102.5234504, "deaths": 12000, "color": "steelblue" },
+            { "country":"FRA", "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 8000, "color": "steelblue" }
         ]
     }],
     "1863": [{
             "war": "Franco-Mexican",
             "color": "steelblue",
             "attributes": [
-                { "latitude": 23.94753932, "longitude": -102.5234504, "deaths": 12000, "color": "steelblue" },
-                { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 8000, "color": "steelblue" }
+                { "country":"MEX", "latitude": 23.94753932, "longitude": -102.5234504, "deaths": 12000, "color": "steelblue" },
+                { "country":"FRA", "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 8000, "color": "steelblue" }
             ]
         },
         {
             "war": "Ecuadorian-Colombian",
             "color": "red",
             "attributes": [
-                { "latitude": -1.42381949, "longitude": -78.75203573, "deaths": 700, "color": "red" },
-                { "latitude": 3.91383156, "longitude": -73.08114936, "deaths": 300, "color": "red" }
+                { "country":"ECU", "latitude": -1.42381949, "longitude": -78.75203573, "deaths": 700, "color": "red" },
+                { "country":"COL", "latitude": 3.91383156, "longitude": -73.08114936, "deaths": 300, "color": "red" }
             ]
         }
     ],
@@ -165,24 +175,25 @@
             "war": "Franco-Mexican",
             "color": "steelblue",
             "attributes": [
-                { "latitude": 23.94753932, "longitude": -102.5234504, "deaths": 12000, "color": "steelblue" },
-                { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 8000, "color": "steelblue" }
+                { "country":"MEX", "latitude": 23.94753932, "longitude": -102.5234504, "deaths": 12000, "color": "steelblue" },
+                { "country":"FRA", "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 8000, "color": "steelblue" }
             ]
         },
         {
             "war": "Second Schleswig-Holsteinn",
             "color": "red",
             "attributes": [
-                { "latitude": 51.10697903, "longitude": 10.38577693, "deaths": 1048, "color": "red" },
-                { "latitude": 55.98126391, "longitude": 10.02799418, "deaths": 2933, "color": "red" }
+                { "country":"DEU", "latitude": 51.10697903, "longitude": 10.38577693, "deaths": 1048, "color": "red" },
+                { "country":"AUT", "latitude": 41.24448626, "longitude": -3.64754874, "deaths": 10000, "color": "red" },
+                { "country":"DNK", "latitude": 55.98126391, "longitude": 10.02799418, "deaths": 2933, "color": "red" }
             ]
         },
         {
             "war": "Lopez",
             "color": "green",
             "attributes": [
-                { "latitude": -23.22823896, "longitude": -58.40014084, "deaths": 200000, "color": "green" },
-                { "latitude": -10.78777567, "longitude": -53.09783199, "deaths": 100000, "color": "green" }
+                { "country":"PRY", "latitude": -23.22823896, "longitude": -58.40014084, "deaths": 200000, "color": "green" },
+                { "country":"BRA", "latitude": -10.78777567, "longitude": -53.09783199, "deaths": 100000, "color": "green" }
             ]
         }
     ],
@@ -190,8 +201,8 @@
             "war": "Franco-Mexican",
             "color": "steelblue",
             "attributes": [
-                { "latitude": 23.94753932, "longitude": -102.5234504, "deaths": 12000, "color": "steelblue" },
-                { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 8000, "color": "steelblue" }
+                { "country":"MEX", "latitude": 23.94753932, "longitude": -102.5234504, "deaths": 12000, "color": "steelblue" },
+                { "country":"FRA", "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 8000, "color": "steelblue" }
             ]
         },
         {
@@ -207,9 +218,9 @@
             "war": "Lopez",
             "color": "green",
             "attributes": [
-                { "latitude": -23.22823896, "longitude": -58.40014084, "deaths": 200000, "color": "green" },
-                { "latitude": -10.78777567, "longitude": -53.09783199, "deaths": 100000, "color": "green" },
-                { "latitude": -35.38135347, "longitude": -65.17980881, "deaths": 10000, "color": "green" }
+                { "country":"PRY", "latitude": -23.22823896, "longitude": -58.40014084, "deaths": 200000, "color": "green" },
+                { "country":"BRA", "latitude": -10.78777567, "longitude": -53.09783199, "deaths": 100000, "color": "green" },
+                { "country":"ARG", "latitude": -35.38135347, "longitude": -65.17980881, "deaths": 10000, "color": "green" }
 
             ]
         }
@@ -218,17 +229,17 @@
             "war": "Franco-Mexican",
             "color": "steelblue",
             "attributes": [
-                { "latitude": 23.94753932, "longitude": -102.5234504, "deaths": 12000, "color": "steelblue" },
-                { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 8000, "color": "steelblue" }
+                { "country":"MEX", "latitude": 23.94753932, "longitude": -102.5234504, "deaths": 12000, "color": "steelblue" },
+                { "country":"FRA", "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 8000, "color": "steelblue" }
             ]
         },
         {
             "war": "Naval War",
             "color": "red",
             "attributes": [
-                { "latitude": -9.15280281, "longitude": -74.38242889, "deaths": 600, "color": "red" },
-                { "latitude": -37.73069754, "longitude": -71.38255879, "deaths": 100, "color": "red" },
-                { "latitude": 40.24448626, "longitude": -3.64754874, "deaths": 300, "color": "red" }
+                { "country":"ARG", "latitude": -9.15280281, "longitude": -74.38242889, "deaths": 600, "color": "red" },
+                { "country":"PER", "latitude": -37.73069754, "longitude": -71.38255879, "deaths": 100, "color": "red" },
+                { "country":"CHL", "latitude": 40.24448626, "longitude": -3.64754874, "deaths": 300, "color": "red" }
 
             ]
         },
@@ -236,9 +247,9 @@
             "war": "Lopez",
             "color": "green",
             "attributes": [
-                { "latitude": -23.22823896, "longitude": -58.40014084, "deaths": 200000, "color": "green" },
-                { "latitude": -10.78777567, "longitude": -53.09783199, "deaths": 100000, "color": "green" },
-                { "latitude": -35.38135347, "longitude": -65.17980881, "deaths": 10000, "color": "green" }
+                { "country":"PRY", "latitude": -23.22823896, "longitude": -58.40014084, "deaths": 200000, "color": "green" },
+                { "country":"BRA", "latitude": -10.78777567, "longitude": -53.09783199, "deaths": 100000, "color": "green" },
+                { "country":"ARG", "latitude": -35.38135347, "longitude": -65.17980881, "deaths": 10000, "color": "green" }
 
             ]
         },
@@ -376,6 +387,66 @@
             { "latitude": -9.15280281, "longitude": -74.38242889, "deaths": 9672, "color": "steelblue" },
             { "latitude": -16.70814536, "longitude": -64.6853892, "deaths": 920, "color": "steelblue" },
             { "latitude": -37.73069754, "longitude": -71.38255879, "deaths": 3276, "color": "steelblue" }
+        ]
+    }],
+    "1882": [{
+        "war": "Conquest of Egypt",
+        "color": "steelblue",
+        "attributes": [
+            { "latitude": 26.49593108, "longitude": 29.8618993, "deaths": 1000, "color": "steelblue" },
+            { "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 79, "color": "steelblue" }
+        ]
+    }],
+    "1884": [{
+        "war": "Sino-French",
+        "color": "steelblue",
+        "attributes": [
+            { "latitude": 36.56176801, "longitude": 103.8190739, "deaths": 10000, "color": "steelblue" },
+            { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 2100, "color": "steelblue" }
+        ]
+    }],
+    "1885": [{
+        "war": "Second Central American",
+        "color": "steelblue",
+        "attributes": [
+            { "latitude": 15.69404158, "longitude": -90.36482288, "deaths": 800, "color": "steelblue" },
+            { "latitude": 13.73944008, "longitude": -88.87164456, "deaths": 200, "color": "steelblue" }
+        ]
+    }],
+    "1894": [{
+        "war": "First Sino-Japanese",
+        "color": "steelblue",
+        "attributes": [
+            { "latitude": 36.56176801, "longitude": 103.8190739, "deaths": 10000, "color": "steelblue" },
+            { "latitude": 37.59230065, "longitude": 138.0308921, "deaths": 200, "color": "steelblue" }
+        ]
+    }],    
+    "1897": [{
+        "war": "Greco-Turkish",
+        "color": "steelblue",
+        "attributes": [
+            { "latitude": 39.06160342, "longitude": 35.16895529, "deaths": 1400, "color": "steelblue" },
+            { "latitude": 39.07466973, "longitude": 22.95556207, "deaths": 600, "color": "steelblue" }
+        ]
+    }],
+    "1898": [{
+        "war": "Spanish-American",
+        "color": "steelblue",
+        "attributes": [
+            { "latitude": 45.67955203, "longitude": -112.4616706, "deaths": 2910, "color": "steelblue" },
+            { "latitude": 40.24448626, "longitude": -3.64754874, "deaths": 775, "color": "steelblue" }
+        ]
+    }],
+    "1900": [{
+        "war": "Boxer Rebellion",
+        "color": "steelblue",
+        "attributes": [
+            { "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 24, "color": "steelblue" },
+            { "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 34, "color": "steelblue" },
+            { "latitude": 37.59230065, "longitude": 138.0308921, "deaths": 622, "color": "steelblue" },
+            { "latitude": 36.56176801, "longitude": 103.8190739, "deaths": 2000, "color": "steelblue" },
+            { "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 302, "color": "steelblue" },
+            { "latitude": 45.67955203, "longitude": -112.4616706, "deaths": 21, "color": "steelblue" }
         ]
     }],
     "1916": [{
