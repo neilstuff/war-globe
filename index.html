@@ -145,23 +145,21 @@
 
             markerGroup.selectAll('circle').remove();
 
+            var html = `<tr>`;
+            html += `<td style="font-size:14px;"><b>Year</b></td>`;
+            html += `<td style="font-size:14px; color:rgba(0,0,0,0.8)">${year}</td>`;
+            html += `</tr>`;
+
+            html += `<tr><td style="font-size:8px;">&nbsp;</td></tr>`;
+
             if (!(year in locations)) {
-                document.getElementById("statistics").style.display = "none";
+                document.getElementById("war-table").innerHTML = html;
                 return;
             }
 
             document.getElementById("statistics").style.display = "inline-block";
             var wars = [];
             var deaths = 0;
-
-
-            var html = `<tr>`;
-
-            html += `<td style="font-size:14px;"><b>Year</b></td>`;
-            html += `<td style="font-size:14px; color:rgba(0,0,0,0.8)">${year}</td>`;
-            html += `</tr>`;
-
-            html += `<tr><td style="font-size:8px;">&nbsp;</td></tr>`;
 
             for (var location in locations[year]) {
                 wars = wars.concat(locations[year][location]["attributes"]);
