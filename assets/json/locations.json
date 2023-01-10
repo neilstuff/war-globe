@@ -575,25 +575,110 @@
         ]
     }],
     "1918": [{
-        "war": "World War I",
-        "color": "steelblue",
-        "attributes": [
-            { "country": "PRT", "latitude": 39.59550247, "longitude": -8.50105506, "deaths": 7222, "color": "steelblue" },
-            { "country": "GBR", "latitude": 54.12387156, "longitude": -64.6853892, "deaths": 908371, "color": "steelblue" },
-            { "country": "ROU", "latitude": 45.85242939, "longitude": 24.97293286, "deaths": 335706, "color": "steelblue" },
-            { "country": "YUG", "latitude": 44.82056, "longitude": 18.361296, "deaths": 70000, "color": "steelblue" },
-            { "country": "BGR", "latitude": 42.76889988, "longitude": 25.21552327, "deaths": 87500, "color": "steelblue" },
-            { "country": "DEU", "latitude": 51.10697903, "longitude": 10.38577693, "deaths": 1773700, "color": "steelblue" },
-            { "country": "BEL", "latitude": 50.63981435, "longitude": 4.64064572, "deaths": 13716, "color": "steelblue" },
-            { "country": "RUS", "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 1700000, "color": "steelblue" },
-            { "country": "ITA", "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 650000, "color": "steelblue" },
-            { "country": "USA", "latitude": 38.895, "longitude": -102.4616706, "deaths": 116516, "color": "steelblue" },
-            { "country": "TUR", "latitude": 39.06160342, "longitude": 35.16895529, "deaths": 325000, "color": "steelblue" },
-            { "country": "JPN", "latitude": 37.59230065, "longitude": 138.0308921, "deaths": 300, "color": "steelblue" },
-            { "country": "FRA", "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 1385000, "color": "steelblue" },
-            { "country": "GRC", "latitude": 39.07466973, "longitude": 22.95556207, "deaths": 1385000, "color": "steelblue" },
-            { "country": "AUT", "latitude": 50.8798, "longitude": 4.70052, "deaths": 1200000, "color": "steelblue" }
-        ]
-    }]
+            "war": "World War I",
+            "color": "steelblue",
+            "attributes": [
+                { "country": "PRT", "latitude": 39.59550247, "longitude": -8.50105506, "deaths": 7222, "color": "steelblue" },
+                { "country": "GBR", "latitude": 54.12387156, "longitude": -64.6853892, "deaths": 908371, "color": "steelblue" },
+                { "country": "ROU", "latitude": 45.85242939, "longitude": 24.97293286, "deaths": 335706, "color": "steelblue" },
+                { "country": "YUG", "latitude": 44.82056, "longitude": 18.361296, "deaths": 70000, "color": "steelblue" },
+                { "country": "BGR", "latitude": 42.76889988, "longitude": 25.21552327, "deaths": 87500, "color": "steelblue" },
+                { "country": "DEU", "latitude": 51.10697903, "longitude": 10.38577693, "deaths": 1773700, "color": "steelblue" },
+                { "country": "BEL", "latitude": 50.63981435, "longitude": 4.64064572, "deaths": 13716, "color": "steelblue" },
+                { "country": "RUS", "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 1700000, "color": "steelblue" },
+                { "country": "ITA", "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 650000, "color": "steelblue" },
+                { "country": "USA", "latitude": 38.895, "longitude": -102.4616706, "deaths": 116516, "color": "steelblue" },
+                { "country": "TUR", "latitude": 39.06160342, "longitude": 35.16895529, "deaths": 325000, "color": "steelblue" },
+                { "country": "JPN", "latitude": 37.59230065, "longitude": 138.0308921, "deaths": 300, "color": "steelblue" },
+                { "country": "FRA", "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 1385000, "color": "steelblue" },
+                { "country": "GRC", "latitude": 39.07466973, "longitude": 22.95556207, "deaths": 1385000, "color": "steelblue" },
+                { "country": "AUT", "latitude": 50.8798, "longitude": 4.70052, "deaths": 1200000, "color": "steelblue" }
+            ]
+        },
+        {
+            "war": "Estonian Liberation",
+            "color": "red",
+            "attributes": [
+                { "country": "EST", "latitude": 58.67192416, "longitude": 25.54248555, "deaths": 3600, "color": "red" },
+                { "country": "RUS", "latitude": 63.98052168, "longitude": 96.68657347, "deaths": 8000, "color": "red" },
+                { "country": "FIN", "latitude": 64.49884844, "longitude": 26.27467024, "deaths": 150, "color": "red" }
+            ]
+        },
+        {
+            "war": "Latvian Liberation",
+            "color": "green",
+            "attributes": [
+                { "country": "LVA", "latitude": 56.85085306, "longitude": 24.9123704, "deaths": 3046, "color": "green" },
+                { "country": "RUS", "latitude": 65.98052168, "longitude": 96.68657347, "deaths": 8000, "color": "green" },
+                { "country": "EST", "latitude": 58.67192416, "longitude": 25.54248555, "deaths": 1000, "color": "green" },
+                { "country": "DEU", "latitude": 53.10697903, "longitude": 10.38577693, "deaths": 750, "color": "green" }
+            ]
+        }
+    ],
+    "1919": [{
+            "war": "Estonian Liberation",
+            "color": "steelblue",
+            "attributes": [
+                { "country": "EST", "latitude": 58.67192416, "longitude": 25.54248555, "deaths": 3600, "color": "steelblue" },
+                { "country": "RUS", "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 8000, "color": "steelblue" },
+                { "country": "FIN", "latitude": 64.49884844, "longitude": 26.27467024, "deaths": 150, "color": "steelblue" }
+            ]
+        },
+        {
+            "war": "Latvian Liberation",
+            "color": "green",
+            "attributes": [
+                { "country": "LVA", "latitude": 56.85085306, "longitude": 24.9123704, "deaths": 3046, "color": "green" },
+                { "country": "RUS", "latitude": 65.98052168, "longitude": 96.68657347, "deaths": 8000, "color": "green" },
+                { "country": "EST", "latitude": 58.67192416, "longitude": 25.54248555, "deaths": 1000, "color": "green" },
+                { "country": "DEU", "latitude": 53.10697903, "longitude": 10.38577693, "deaths": 750, "color": "green" }
+            ]
+        },
+        {
+            "war": "Russo-Polish",
+            "color": "red",
+            "attributes": [
+                { "country": "RUS", "latitude": 69.98052168, "longitude": 96.68657347, "deaths": 60000, "color": "red" },
+                { "country": "POL", "latitude": 52.12759537, "longitude": 19.39011841, "deaths": 40000, "color": "red" }
+            ]
+        },
+        {
+            "war": "Hungarian Adversaries",
+            "color": "brown",
+            "attributes": [
+                { "country": "CZE", "latitude": 50.08804, "longitude": 14.42076, "deaths": 2000, "color": "brown" },
+                { "country": "HUN", "latitude": 47.16277712, "longitude": 19.39559381, "deaths": 6000, "color": "brown" },
+                { "country": "ROU", "latitude": 45.85242939, "longitude": 24.97293286, "deaths": 3000, "color": "brown" }
+            ]
+        }
+    ],
+    "1920": [{
+            "war": "Estonian Liberation",
+            "color": "steelblue",
+            "attributes": [
+                { "country": "EST", "latitude": 58.67192416, "longitude": 25.54248555, "deaths": 3600, "color": "steelblue" },
+                { "country": "RUS", "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 8000, "color": "steelblue" },
+                { "country": "FIN", "latitude": 64.49884844, "longitude": 26.27467024, "deaths": 150, "color": "steelblue" }
+            ]
+        },
+        {
+            "war": "Latvian Liberation",
+            "color": "green",
+            "attributes": [
+                { "country": "LVA", "latitude": 56.85085306, "longitude": 24.9123704, "deaths": 3046, "color": "green" },
+                { "country": "RUS", "latitude": 65.98052168, "longitude": 96.68657347, "deaths": 8000, "color": "green" },
+                { "country": "EST", "latitude": 58.67192416, "longitude": 25.54248555, "deaths": 1000, "color": "green" },
+                { "country": "DEU", "latitude": 53.10697903, "longitude": 10.38577693, "deaths": 750, "color": "green" }
+            ]
+        },
+        {
+            "war": "Russo-Polish",
+            "color": "red",
+            "attributes": [
+                { "country": "RUS", "latitude": 69.98052168, "longitude": 96.68657347, "deaths": 60000, "color": "red" },
+                { "country": "POL", "latitude": 52.12759537, "longitude": 19.39011841, "deaths": 40000, "color": "red" }
+            ]
+        }
+    ]
 
 }
