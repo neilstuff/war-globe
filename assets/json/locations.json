@@ -988,7 +988,199 @@
                 { "country": "KOR", "latitude": 36.3852463, "longitude": 127.8391693, "deaths": 113248, "color": "steelblue" },
                 { "country": "GBR", "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 710, "color": "steelblue" }
             ]
-    }],     
+    }],  
+    "1956": [
+        {
+            "war": "Soviet Invasion of Hungary",
+            "color": "steelblue",
+            "attributes": [
+                { "country": "RUS", "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 1500, "color": "steelblue" },
+                { "country": "HUN", "latitude": 47.16277712, "longitude": 19.39559381, "deaths": 926, "color": "steelblue" }
+            ]
+    }],   
+    "1965": [
+        {
+            "war": "Vietnam War, Phase 2",
+            "color": "steelblue",
+            "attributes": [
+                { "country": "SVM", "latitude": 10.8230, "longitude": 106.6297, "deaths": 254257, "color": "steelblue" },
+                { "country": "KHM", "latitude": 12.72004932, "longitude": 104.9069431, "deaths": 58153, "color": "steelblue" },
+                { "country": "PHL", "latitude": 11.77539737, "longitude": 122.8839215, "deaths": 1000, "color": "steelblue" },
+                { "country": "USA", "latitude": 38.895, "longitude": -102.4616706, "deaths": 2500, "color": "steelblue" },
+                { "country": "AUS", "latitude": -25.73288736, "longitude": 134.4909988, "deaths": 494, "color": "steelblue" },
+                { "country": "VNM", "latitude": 16.64601451, "longitude": 106.2991386, "deaths": 700000, "color": "steelblue" },
+                { "country": "KOR", "latitude": 36.3852463, "longitude": 127.8391693, "deaths": 4687, "color": "steelblue" },
+                { "country": "THA", "latitude": 15.11816347, "longitude": 101.0028835, "deaths": 351, "color": "steelblue" }
+ 
+            ]
+    },
+    {
+        "war": "Second Kashmir",
+        "color": "red",
+        "attributes": [
+            { "country": "IND", "latitude": 22.88578035, "longitude": 79.61197355, "deaths": 3261, "color": "red" },
+            { "country": "PAK", "latitude": 29.94975221, "longitude": 69.33958027, "deaths": 3800, "color": "red" }
+        ]
+    }],    
+    "1966": [
+        {
+            "war": "Vietnam War, Phase 2",
+            "color": "steelblue",
+            "attributes": [
+                { "country": "SVM", "latitude": 10.8230, "longitude": 106.6297, "deaths": 254257, "color": "steelblue" },
+                { "country": "KHM", "latitude": 12.72004932, "longitude": 104.9069431, "deaths": 58153, "color": "steelblue" },
+                { "country": "PHL", "latitude": 11.77539737, "longitude": 122.8839215, "deaths": 1000, "color": "steelblue" },
+                { "country": "USA", "latitude": 38.895, "longitude": -102.4616706, "deaths": 2500, "color": "steelblue" },
+                { "country": "AUS", "latitude": -25.73288736, "longitude": 134.4909988, "deaths": 494, "color": "steelblue" },
+                { "country": "VNM", "latitude": 16.64601451, "longitude": 106.2991386, "deaths": 700000, "color": "steelblue" },
+                { "country": "KOR", "latitude": 36.3852463, "longitude": 127.8391693, "deaths": 4687, "color": "steelblue" },
+                { "country": "THA", "latitude": 15.11816347, "longitude": 101.0028835, "deaths": 351, "color": "steelblue" }
+ 
+            ]
+    }],
+    "1967": [
+        {
+            "war": "Vietnam War, Phase 2",
+            "color": "steelblue",
+            "attributes": [
+                { "country": "SVM", "latitude": 10.8230, "longitude": 106.6297, "deaths": 254257, "color": "steelblue" },
+                { "country": "KHM", "latitude": 12.72004932, "longitude": 104.9069431, "deaths": 58153, "color": "steelblue" },
+                { "country": "PHL", "latitude": 11.77539737, "longitude": 122.8839215, "deaths": 1000, "color": "steelblue" },
+                { "country": "USA", "latitude": 38.895, "longitude": -102.4616706, "deaths": 2500, "color": "steelblue" },
+                { "country": "AUS", "latitude": -25.73288736, "longitude": 134.4909988, "deaths": 494, "color": "steelblue" },
+                { "country": "VNM", "latitude": 16.64601451, "longitude": 106.2991386, "deaths": 700000, "color": "steelblue" },
+                { "country": "KOR", "latitude": 36.3852463, "longitude": 127.8391693, "deaths": 4687, "color": "steelblue" },
+                { "country": "THA", "latitude": 15.11816347, "longitude": 101.0028835, "deaths": 351, "color": "steelblue" }
+ 
+            ]
+    },
+    {
+        "war": "Six Day War",
+        "color": "red",
+        "attributes": [
+            { "country": "ISR", "latitude": 31.4611019, "longitude": 35.00444995, "deaths": 1000, "color": "red" },
+            { "country": "JOR", "latitude": 31.24579389, "longitude": 36.77137251, "deaths": 6100, "color": "red"},
+            { "country": "EGY", "latitude": 29.8618993, "longitude": 26.49593108, "deaths": 10000, "color": "red"},
+            { "country": "SYR", "latitude": 35.02547248, "longitude": 38.50787939, "deaths": 2500, "color": "red"}
+        ]
+    }],
+    "1968": [
+        {
+            "war": "Vietnam War, Phase 2",
+            "color": "steelblue",
+            "attributes": [
+                { "country": "SVM", "latitude": 10.8230, "longitude": 106.6297, "deaths": 254257, "color": "steelblue" },
+                { "country": "KHM", "latitude": 12.72004932, "longitude": 104.9069431, "deaths": 58153, "color": "steelblue" },
+                { "country": "PHL", "latitude": 11.77539737, "longitude": 122.8839215, "deaths": 1000, "color": "steelblue" },
+                { "country": "USA", "latitude": 38.895, "longitude": -102.4616706, "deaths": 2500, "color": "steelblue" },
+                { "country": "AUS", "latitude": -25.73288736, "longitude": 134.4909988, "deaths": 494, "color": "steelblue" },
+                { "country": "VNM", "latitude": 16.64601451, "longitude": 106.2991386, "deaths": 700000, "color": "steelblue" },
+                { "country": "KOR", "latitude": 36.3852463, "longitude": 127.8391693, "deaths": 4687, "color": "steelblue" },
+                { "country": "THA", "latitude": 15.11816347, "longitude": 101.0028835, "deaths": 351, "color": "steelblue" }
+ 
+            ]
+    }],
+    "1969": [
+        {
+            "war": "Vietnam War, Phase 2",
+            "color": "steelblue",
+            "attributes": [
+                { "country": "SVM", "latitude": 10.8230, "longitude": 106.6297, "deaths": 254257, "color": "steelblue" },
+                { "country": "KHM", "latitude": 12.72004932, "longitude": 104.9069431, "deaths": 58153, "color": "steelblue" },
+                { "country": "PHL", "latitude": 11.77539737, "longitude": 122.8839215, "deaths": 1000, "color": "steelblue" },
+                { "country": "USA", "latitude": 38.895, "longitude": -102.4616706, "deaths": 2500, "color": "steelblue" },
+                { "country": "AUS", "latitude": -25.73288736, "longitude": 134.4909988, "deaths": 494, "color": "steelblue" },
+                { "country": "VNM", "latitude": 16.64601451, "longitude": 106.2991386, "deaths": 700000, "color": "steelblue" },
+                { "country": "KOR", "latitude": 36.3852463, "longitude": 127.8391693, "deaths": 4687, "color": "steelblue" },
+                { "country": "THA", "latitude": 15.11816347, "longitude": 101.0028835, "deaths": 351, "color": "steelblue" }
+ 
+            ]
+    }],
+    "1970": [
+        {
+            "war": "Vietnam War, Phase 2",
+            "color": "steelblue",
+            "attributes": [
+                { "country": "SVM", "latitude": 10.8230, "longitude": 106.6297, "deaths": 254257, "color": "steelblue" },
+                { "country": "KHM", "latitude": 12.72004932, "longitude": 104.9069431, "deaths": 58153, "color": "steelblue" },
+                { "country": "PHL", "latitude": 11.77539737, "longitude": 122.8839215, "deaths": 1000, "color": "steelblue" },
+                { "country": "USA", "latitude": 38.895, "longitude": -102.4616706, "deaths": 2500, "color": "steelblue" },
+                { "country": "AUS", "latitude": -25.73288736, "longitude": 134.4909988, "deaths": 494, "color": "steelblue" },
+                { "country": "VNM", "latitude": 16.64601451, "longitude": 106.2991386, "deaths": 700000, "color": "steelblue" },
+                { "country": "KOR", "latitude": 36.3852463, "longitude": 127.8391693, "deaths": 4687, "color": "steelblue" },
+                { "country": "THA", "latitude": 15.11816347, "longitude": 101.0028835, "deaths": 351, "color": "steelblue" }
+ 
+            ]
+    }],
+    "1971": [
+        {
+            "war": "Vietnam War, Phase 2",
+            "color": "steelblue",
+            "attributes": [
+                { "country": "SVM", "latitude": 10.8230, "longitude": 106.6297, "deaths": 254257, "color": "steelblue" },
+                { "country": "KHM", "latitude": 12.72004932, "longitude": 104.9069431, "deaths": 58153, "color": "steelblue" },
+                { "country": "PHL", "latitude": 11.77539737, "longitude": 122.8839215, "deaths": 1000, "color": "steelblue" },
+                { "country": "USA", "latitude": 38.895, "longitude": -102.4616706, "deaths": 2500, "color": "steelblue" },
+                { "country": "AUS", "latitude": -25.73288736, "longitude": 134.4909988, "deaths": 494, "color": "steelblue" },
+                { "country": "VNM", "latitude": 16.64601451, "longitude": 106.2991386, "deaths": 700000, "color": "steelblue" },
+                { "country": "KOR", "latitude": 36.3852463, "longitude": 127.8391693, "deaths": 4687, "color": "steelblue" },
+                { "country": "THA", "latitude": 15.11816347, "longitude": 101.0028835, "deaths": 351, "color": "steelblue" }
+ 
+            ]
+    }],
+    "1972": [
+        {
+            "war": "Vietnam War, Phase 2",
+            "color": "steelblue",
+            "attributes": [
+                { "country": "SVM", "latitude": 10.8230, "longitude": 106.6297, "deaths": 254257, "color": "steelblue" },
+                { "country": "KHM", "latitude": 12.72004932, "longitude": 104.9069431, "deaths": 58153, "color": "steelblue" },
+                { "country": "PHL", "latitude": 11.77539737, "longitude": 122.8839215, "deaths": 1000, "color": "steelblue" },
+                { "country": "USA", "latitude": 38.895, "longitude": -102.4616706, "deaths": 2500, "color": "steelblue" },
+                { "country": "AUS", "latitude": -25.73288736, "longitude": 134.4909988, "deaths": 494, "color": "steelblue" },
+                { "country": "VNM", "latitude": 16.64601451, "longitude": 106.2991386, "deaths": 700000, "color": "steelblue" },
+                { "country": "KOR", "latitude": 36.3852463, "longitude": 127.8391693, "deaths": 4687, "color": "steelblue" },
+                { "country": "THA", "latitude": 15.11816347, "longitude": 101.0028835, "deaths": 351, "color": "steelblue" }
+ 
+            ]
+    }],
+    "1973": [
+        {
+            "war": "Vietnam War, Phase 2",
+            "color": "steelblue",
+            "attributes": [
+                { "country": "SVM", "latitude": 10.8230, "longitude": 106.6297, "deaths": 254257, "color": "steelblue" },
+                { "country": "KHM", "latitude": 12.72004932, "longitude": 104.9069431, "deaths": 58153, "color": "steelblue" },
+                { "country": "PHL", "latitude": 11.77539737, "longitude": 122.8839215, "deaths": 1000, "color": "steelblue" },
+                { "country": "USA", "latitude": 38.895, "longitude": -102.4616706, "deaths": 2500, "color": "steelblue" },
+                { "country": "VNM", "latitude": 16.64601451, "longitude": 106.2991386, "deaths": 700000, "color": "steelblue" },
+                { "country": "KOR", "latitude": 36.3852463, "longitude": 127.8391693, "deaths": 4687, "color": "steelblue" },
+                { "country": "THA", "latitude": 15.11816347, "longitude": 101.0028835, "deaths": 351, "color": "steelblue" }
+ 
+            ]
+    }],
+    "1974": [
+        {
+            "war": "Vietnam War, Phase 2",
+            "color": "steelblue",
+            "attributes": [
+                { "country": "SVM", "latitude": 10.8230, "longitude": 106.6297, "deaths": 254257, "color": "steelblue" },
+                { "country": "KHM", "latitude": 12.72004932, "longitude": 104.9069431, "deaths": 58153, "color": "steelblue" },
+                 { "country": "VNM", "latitude": 16.64601451, "longitude": 106.2991386, "deaths": 700000, "color": "steelblue" }
+ 
+            ]
+    }],
+    "1975": [
+        {
+            "war": "Vietnam War, Phase 2",
+            "color": "steelblue",
+            "attributes": [
+                { "country": "SVM", "latitude": 10.8230, "longitude": 106.6297, "deaths": 254257, "color": "steelblue" },
+                { "country": "KHM", "latitude": 12.72004932, "longitude": 104.9069431, "deaths": 58153, "color": "steelblue" },
+                 { "country": "VNM", "latitude": 16.64601451, "longitude": 106.2991386, "deaths": 700000, "color": "steelblue" }
+ 
+            ]
+    }],
     "1991": [{
         "war": "Gulf War",
         "color": "steelblue",
@@ -1003,7 +1195,43 @@
             { "country": "EGY", "latitude": 26.49593108, "longitude": 29.8618993, "deaths": 0, "color": "steelblue" },
             { "country": "IRQ", "latitude": 33.03970511, "longitude": 33.03970511, "deaths": 40000, "color": "steelblue" }
         ]
+        },
+        {"war": "Bosnian Independence",
+        "color": "red",
+        "attributes": [
+            { "country": "BIH", "latitude": 44.17449912, "longitude": 17.76876588, "deaths": 2850, "color": "red" },
+            { "country": "YUG", "latitude": 44.82056, "longitude": 18.361296, "deaths": 1890, "color": "steelblue" },
+            { "country": "HRV", "latitude": 45.08047284, "longitude": 16.40413079, "deaths": 1890, "color": "steelblue" }
+        ]
+  
     }],
+    "1993": [
+        {
+            "war": "Azeri-Armenian",
+            "color": "steelblue",
+            "attributes": [
+                { "country": "AZE", "latitude": 40.28827674, "longitude": 4.64064572, "deaths": 8500, "color": "steelblue" },
+                { "country": "ARM", "latitude": 40.28952206, "longitude": 44.9299343, "deaths": 5500, "color": "steelblue" }
+            ]
+    }],  
+    "1995": [
+        {
+            "war": "Cenepa Valley",
+            "color": "steelblue",
+            "attributes": [
+                { "country": "ECU", "latitude": -1.42381949, "longitude": -78.75203573, "deaths": 550, "color": "steelblue" },
+                { "country": "PER", "latitude": -9.15280281, "longitude": -74.38242889, "deaths": 950, "color": "steelblue" }
+            ]
+    }], 
+    "1998": [
+        {
+            "war": "Badme Border",
+            "color": "steelblue",
+            "attributes": [
+                { "country": "ETH", "latitude": 8.62278417, "longitude": 39.6008014, "deaths": 70000, "color": "steelblue" },
+                { "country": "ERI", "latitude": 15.36186881, "longitude": 38.84615444, "deaths": 50000, "color": "steelblue" }
+            ]
+    }],       
     "1999": [{
         "war": "War for Kosovo",
         "color": "steelblue",

@@ -60,13 +60,17 @@
         </table>
     </div>
     <svg id="globe"></svg>
-    <div id="up" style="position:absolute; bottom:0px; right:0px; width:20px; height:50px; ">
-        <svg fill="#000000" height="8px" width="8px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
-            <polygon points="256,63.6 0,319.6 69.8,389.4 256,203.2 442.2,389.4 512,319.6 "/>
-        </svg>
-        <p style="font-size: 2px;"></p>
-        <svg fill="#000000" height="8px" width="8px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
-            <polygon points="442.2,93.1 256,279.3 69.8,93.1 0,162.9 256,418.9 512,162.9 "/>
+    <div id="up" style="position:absolute; bottom:0px; width:20px; height:40px; right:20px; ">
+        <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_429_11133)">
+            <circle cx="12" cy="12" r="9" stroke="#292929" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M14 12L11 13.7321L11 10.2679L14 12Z" stroke="#292929" stroke-width="2.5" stroke-linejoin="round"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_429_11133">
+            <rect width="24" height="24" fill="white"/>
+            </clipPath>
+            </defs>
         </svg>
     </div>
     <script src="node_modules/d3v4/build/d3.min.js"></script>
@@ -156,10 +160,12 @@
             }
 
             document.getElementById("statistics").style.display = "inline-block";
-            var wars = [];
-            var deaths = 0;
-
+           
+            
             for (var location in locations[year]) {
+                var wars = [];
+                var deaths = 0;
+
                 wars = wars.concat(locations[year][location]["attributes"]);
 
                 for (var battles in wars) {
