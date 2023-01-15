@@ -859,6 +859,7 @@
         "war": "World War II",
         "color": "green",
         "attributes": [
+            { "country": "USA", "latitude": 38.895, "longitude": -102.4616706, "deaths": 405400, "color": "green" },
             { "country": "FRA", "latitude": 52.518553, "longitude": 46.18700581, "deaths": 210824, "color": "green" },
             { "country": "HUN", "latitude": 47.16277712, "longitude": 19.39559381, "deaths": 136000, "color": "green" },
             { "country": "YUG", "latitude": 44.82056, "longitude": 18.361296, "deaths": 305000, "color": "green" },
@@ -872,6 +873,195 @@
             { "country": "BEL", "latitude": 50.63981435, "longitude": 4.64064572, "deaths": 13716, "color": "green" },
             { "country": "FIN", "latitude": 64.49884844, "longitude": 26.27467024, "deaths": 13716, "color": "green" }
         ]
-    }]  
-    
+    }],
+    "1942": [{
+        "war": "Third Sino-Japanese",
+        "color": "steelblue",
+        "attributes": [
+            { "country": "CHN", "latitude": 36.56176801, "longitude": 103.8190739, "deaths": 750000, "color": "steelblue" },
+            { "country": "JPN", "latitude": 37.59230065, "longitude": 138.0308921, "deaths": 250000, "color": "steelblue" }
+        ]
+    },
+    {
+        "war": "World War II",
+        "color": "green",
+        "attributes": [
+            { "country": "USA", "latitude": 38.895, "longitude": -102.4616706, "deaths": 405400, "color": "green" },
+            { "country": "FRA", "latitude": 52.518553, "longitude": 46.18700581, "deaths": 210824, "color": "green" },
+            { "country": "HUN", "latitude": 47.16277712, "longitude": 19.39559381, "deaths": 136000, "color": "green" },
+            { "country": "YUG", "latitude": 44.82056, "longitude": 18.361296, "deaths": 305000, "color": "green" },
+            { "country": "DEU", "latitude": 51.10697903, "longitude": 10.38577693, "deaths": 3500000, "color": "green" },
+            { "country": "AUS", "latitude": -25.73288736, "longitude": 134.4909988, "deaths": 33826, "color": "green" },
+            { "country": "GBR", "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 418765, "color": "green" },
+            { "country": "ITL", "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 174500, "color": "green" },
+            { "country": "BGR", "latitude": 42.76889988, "longitude": 25.21552327, "deaths": 13716, "color": "green" },
+            { "country": "JPN", "latitude": 37.59230065, "longitude": 138.0308921, "deaths": 1740000, "color": "green" },
+            { "country": "GBR", "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 418765, "color": "green" },
+            { "country": "BEL", "latitude": 50.63981435, "longitude": 4.64064572, "deaths": 13716, "color": "green" },
+            { "country": "FIN", "latitude": 64.49884844, "longitude": 26.27467024, "deaths": 13716, "color": "green" }
+        ]
+    }],
+    "1943": [{
+        "war": "Third Sino-Japanese",
+        "color": "steelblue",
+        "attributes": [
+            { "country": "CHN", "latitude": 36.56176801, "longitude": 103.8190739, "deaths": 750000, "color": "steelblue" },
+            { "country": "JPN", "latitude": 37.59230065, "longitude": 138.0308921, "deaths": 250000, "color": "steelblue" }
+        ]
+    },
+    {
+        "war": "World War II",
+        "color": "green",
+        "attributes": [
+            { "country": "USA", "latitude": 38.895, "longitude": -102.4616706, "deaths": 405400, "color": "green" },
+            { "country": "FRA", "latitude": 52.518553, "longitude": 46.18700581, "deaths": 210824, "color": "green" },
+            { "country": "HUN", "latitude": 47.16277712, "longitude": 19.39559381, "deaths": 136000, "color": "green" },
+            { "country": "YUG", "latitude": 44.82056, "longitude": 18.361296, "deaths": 305000, "color": "green" },
+            { "country": "DEU", "latitude": 51.10697903, "longitude": 10.38577693, "deaths": 3500000, "color": "green" },
+            { "country": "AUS", "latitude": -25.73288736, "longitude": 134.4909988, "deaths": 33826, "color": "green" },
+            { "country": "GBR", "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 418765, "color": "green" },
+            { "country": "ITL", "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 174500, "color": "green" },
+            { "country": "BGR", "latitude": 42.76889988, "longitude": 25.21552327, "deaths": 13716, "color": "green" },
+            { "country": "JPN", "latitude": 37.59230065, "longitude": 138.0308921, "deaths": 1740000, "color": "green" },
+            { "country": "GBR", "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 418765, "color": "green" },
+            { "country": "BEL", "latitude": 50.63981435, "longitude": 4.64064572, "deaths": 13716, "color": "green" },
+            { "country": "FIN", "latitude": 64.49884844, "longitude": 26.27467024, "deaths": 13716, "color": "green" }
+        ]
+    }],
+    "1944": [
+    {
+        "war": "World War II",
+        "color": "green",
+        "attributes": [
+            { "country": "USA", "latitude": 38.895, "longitude": -102.4616706, "deaths": 405400, "color": "green" },
+            { "country": "FRA", "latitude": 52.518553, "longitude": 46.18700581, "deaths": 210824, "color": "green" },
+            { "country": "HUN", "latitude": 47.16277712, "longitude": 19.39559381, "deaths": 136000, "color": "green" },
+            { "country": "YUG", "latitude": 44.82056, "longitude": 18.361296, "deaths": 305000, "color": "green" },
+            { "country": "DEU", "latitude": 51.10697903, "longitude": 10.38577693, "deaths": 3500000, "color": "green" },
+            { "country": "AUS", "latitude": -25.73288736, "longitude": 134.4909988, "deaths": 33826, "color": "green" },
+            { "country": "GBR", "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 418765, "color": "green" },
+            { "country": "ITL", "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 174500, "color": "green" },
+            { "country": "BGR", "latitude": 42.76889988, "longitude": 25.21552327, "deaths": 13716, "color": "green" },
+            { "country": "JPN", "latitude": 37.59230065, "longitude": 138.0308921, "deaths": 1740000, "color": "green" },
+            { "country": "GBR", "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 418765, "color": "green" },
+            { "country": "BEL", "latitude": 50.63981435, "longitude": 4.64064572, "deaths": 13716, "color": "green" },
+            { "country": "FIN", "latitude": 64.49884844, "longitude": 26.27467024, "deaths": 13716, "color": "green" }
+        ]
+    }],
+    "1945": [
+        {
+            "war": "World War II",
+            "color": "green",
+            "attributes": [
+                { "country": "USA", "latitude": 38.895, "longitude": -102.4616706, "deaths": 405400, "color": "green" },
+                { "country": "FRA", "latitude": 52.518553, "longitude": 46.18700581, "deaths": 210824, "color": "green" },
+                { "country": "HUN", "latitude": 47.16277712, "longitude": 19.39559381, "deaths": 136000, "color": "green" },
+                { "country": "YUG", "latitude": 44.82056, "longitude": 18.361296, "deaths": 305000, "color": "green" },
+                { "country": "DEU", "latitude": 51.10697903, "longitude": 10.38577693, "deaths": 3500000, "color": "green" },
+                { "country": "AUS", "latitude": -25.73288736, "longitude": 134.4909988, "deaths": 33826, "color": "green" },
+                { "country": "GBR", "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 418765, "color": "green" },
+                { "country": "ITL", "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 174500, "color": "green" },
+                { "country": "BGR", "latitude": 42.76889988, "longitude": 25.21552327, "deaths": 13716, "color": "green" },
+                { "country": "JPN", "latitude": 37.59230065, "longitude": 138.0308921, "deaths": 1740000, "color": "green" },
+                { "country": "GBR", "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 418765, "color": "green" },
+                { "country": "BEL", "latitude": 50.63981435, "longitude": 4.64064572, "deaths": 13716, "color": "green" },
+                { "country": "FIN", "latitude": 64.49884844, "longitude": 26.27467024, "deaths": 13716, "color": "green" }
+            ]
+    }],   
+    "1950": [
+        {
+            "war": "Korean",
+            "color": "steelblue",
+            "attributes": [
+                { "country": "USA", "latitude": 38.895, "longitude": -102.4616706, "deaths": 54487, "color": "steelblue" },
+                { "country": "KOR", "latitude": 36.3852463, "longitude": 127.8391693, "deaths": 113248, "color": "steelblue" },
+                { "country": "GBR", "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 710, "color": "steelblue" }
+            ]
+    }],        
+    "1951": [
+        {
+            "war": "Korean",
+            "color": "steelblue",
+            "attributes": [
+                { "country": "BEL", "latitude": 50.63981435, "longitude": 4.64064572, "deaths": 97, "color": "steelblue" },
+                { "country": "USA", "latitude": 38.895, "longitude": -102.4616706, "deaths": 54487, "color": "steelblue" },
+                { "country": "KOR", "latitude": 36.3852463, "longitude": 127.8391693, "deaths": 113248, "color": "steelblue" },
+                { "country": "GBR", "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 710, "color": "steelblue" }
+            ]
+    }],     
+    "1991": [{
+        "war": "Gulf War",
+        "color": "steelblue",
+        "attributes": [
+            { "country": "USA", "latitude": 38.895, "longitude": -102.4616706, "deaths": 376, "color": "steelblue" },
+            { "country": "OMN", "latitude": 20.60515412, "longitude": 56.09165967, "deaths": 0, "color": "steelblue" },
+            { "country": "MAR", "latitude": 29.83762793, "longitude": -8.45616045, "deaths": 0, "color": "steelblue" },
+            { "country": "GBR", "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 24, "color": "steelblue" },
+            { "country": "ARE", "latitude": 23.90527175, "longitude": 54.30015737, "deaths": 6, "color": "steelblue" },
+            { "country": "CAN", "latitude": 61.36206827, "longitude": -98.30775723, "deaths": 0, "color": "steelblue" },
+            { "country": "SAU", "latitude": 24.12245467, "longitude": 44.53687041, "deaths": 44, "color": "steelblue" },
+            { "country": "EGY", "latitude": 26.49593108, "longitude": 29.8618993, "deaths": 0, "color": "steelblue" },
+            { "country": "IRQ", "latitude": 33.03970511, "longitude": 33.03970511, "deaths": 40000, "color": "steelblue" }
+        ]
+    }],
+    "1999": [{
+        "war": "War for Kosovo",
+        "color": "steelblue",
+        "attributes": [
+            { "country": "USA", "latitude": 38.895, "longitude": -102.4616706, "deaths": 2, "color": "steelblue" },
+            { "country": "ITL", "latitude": 42.79663568, "longitude": 12.07000946, "deaths": 2, "color": "steelblue" },
+            { "country": "GBR", "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 2, "color": "steelblue" },
+            { "country": "DEU", "latitude": 51.10697903, "longitude": 10.38577693, "deaths": 2, "color": "steelblue" },
+            { "country": "YUG", "latitude": 44.82056, "longitude": 18.361296, "deaths": 5000, "color": "steelblue" },          
+            { "country": "NLD", "latitude": 52.10080804, "longitude": 5.2814735, "deaths": 0, "color": "steelblue" },
+            { "country": "TUR", "latitude": 39.06160342, "longitude": 35.16895529, "deaths": 0, "color": "steelblue" },
+            { "country": "FRA", "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 0, "color": "steelblue" } 
+       ]
+    },
+    {
+        "war": "Kargil War",
+        "color": "steelblue",
+        "attributes": [
+            { "country": "IND", "latitude": 22.88578035, "longitude": 79.61197355, "deaths": 474, "color": "red" },
+            { "country": "PAK", "latitude": 29.94975221, "longitude": 69.33958027, "deaths": 698, "color": "red" }
+        ]
+    }],
+    "2001": [{
+        "war": "Invasion of Afghanistan",
+        "color": "steelblue",
+        "attributes": [
+            { "country": "USA", "latitude": 38.895, "longitude": -102.4616706, "deaths": 2, "color": "steelblue" },
+            { "country": "AFG", "latitude": 33.83523216, "longitude": 66.00473115, "deaths": 4000, "color": "steelblue" },
+            { "country": "AUS", "latitude": -25.73288736, "longitude": 134.4909988, "deaths": 0, "color": "green" },
+            { "country": "FRA", "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 0, "color": "steelblue" },
+            { "country": "CAN", "latitude": 61.36206827, "longitude": -98.30775723, "deaths": 0, "color": "steelblue" },
+            { "country": "GBR", "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 0, "color": "steelblue" }
+       ]
+    }],
+    "2003": [{
+        "war": "Invasion of Iraq",
+        "color": "steelblue",
+        "attributes": [
+            { "country": "USA", "latitude": 38.895, "longitude": -102.4616706, "deaths": 140, "color": "steelblue" },
+            { "country": "IRQ", "latitude": 33.03970511, "longitude": 43.74353204, "deaths": 7000, "color": "steelblue" },
+            { "country": "AUS", "latitude": -25.73288736, "longitude": 134.4909988, "deaths": 0, "color": "green" },
+            { "country": "GBR", "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 33, "color": "steelblue" }
+       ]
+    }],
+    "2022": [{
+        "war": "Russo-Ukraine",
+        "color": "steelblue",
+        "attributes": [
+            { "country": "RUS", "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 100000, "color": "steelblue" },
+            { "country": "UKR", "latitude": 50.4501, "longitude": 30.5234, "deaths": 25000, "color": "steelblue" }
+        ]
+    }],
+    "2023": [{
+        "war": "Russo-Ukraine",
+        "color": "steelblue",
+        "attributes": [
+            { "country": "RUS", "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 100000, "color": "steelblue" },
+            { "country": "UKR", "latitude": 50.4501, "longitude": 30.5234, "deaths": 25000, "color": "steelblue" }
+        ]
+    }] 
 }
