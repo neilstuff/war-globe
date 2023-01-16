@@ -807,6 +807,15 @@
             { "country": "RUS", "latitude":47.72182, "longitude": 61.98052168, "deaths": 1200, "color": "red" },
             { "country": "JPN", "latitude": 37.59230065, "longitude": 138.0308921, "deaths": 526, "color": "red" }
         ]
+    },
+    {
+        "war": "Nomonhan",
+        "color": "brown",
+        "attributes": [
+            { "country": "RUS", "latitude": 49.72182, "longitude": 61.98052168, "deaths": 5000, "color": "red" },
+            { "country": "MNG", "latitude": 49.72182, "longitude": 61.98052168, "deaths": 5000, "color": "red" },
+            { "country": "JPN", "latitude": 37.59230065, "longitude": 138.0308921, "deaths": 20000, "color": "red" }
+        ]
     }],
     "1939": [{
         "war": "Third Sino-Japanese",
@@ -1095,6 +1104,22 @@
                 { "country": "THA", "latitude": 15.11816347, "longitude": 101.0028835, "deaths": 351, "color": "steelblue" }
  
             ]
+    },
+    {
+        "war": "War of Attrition",
+        "color": "red",
+        "attributes": [
+            { "country": "ISR", "latitude": 31.4611019, "longitude": 35.00444995, "deaths": 538, "color": "red" },
+             { "country": "EGY", "latitude": 29.8618993, "longitude": 26.49593108, "deaths": 1200, "color": "red"}
+        ]
+    },
+    {
+        "war": "Football War",
+        "color": "red",
+        "attributes": [
+            { "country": "SLV", "latitude": 13.73944008, "longitude": -88.87164456, "deaths": 700, "color": "red" },
+             { "country": "HND", "latitude": 14.82688225, "longitude": -86.61516846, "deaths": 1200, "color": "red"}
+        ]
     }],
     "1970": [
         {
@@ -1111,6 +1136,28 @@
                 { "country": "THA", "latitude": 15.11816347, "longitude": 101.0028835, "deaths": 351, "color": "steelblue" }
  
             ]
+    }   ,
+    {
+        "war": "Second Laotian, Phase 2",
+        "color": "red",
+        "attributes": [
+            { "country": "USA", "latitude": 38.895, "longitude": -102.4616706, "deaths": 2500, "color": "red" },
+            { "country": "LAO", "latitude": 45.67955203, "longitude": -112.4616706, "deaths": 11250, "color": "red" },
+            { "country": "VNM", "latitude": 16.64601451, "longitude": 106.2991386, "deaths": 2250, "color": "red" }
+ 
+        ]
+    },
+    {
+        "war": "Yom Kippur War",
+        "color": "brown",
+        "attributes": [
+            { "country": "ISR", "latitude": 31.4611019, "longitude": 35.00444995, "deaths": 2838, "color": "brown" },
+            { "country": "JOR", "latitude": 31.24579389, "longitude": 36.77137251, "deaths": 23, "color": "brown"},
+            { "country": "EGY", "latitude": 29.8618993, "longitude": 26.49593108, "deaths": 7700, "color": "brown"},
+            { "country": "SYR", "latitude": 35.02547248, "longitude": 38.50787939, "deaths": 3500, "color": "brown"},
+            { "country": "IRQ", "latitude": 33.03970511, "longitude": 43.74353204, "deaths": 278, "color": "brown"}
+            
+        ]
     }],
     "1971": [
         {
@@ -1180,6 +1227,55 @@
                  { "country": "VNM", "latitude": 16.64601451, "longitude": 106.2991386, "deaths": 700000, "color": "steelblue" }
  
             ]
+    },
+    {
+        "war": "Turco-Cypriot",
+        "color": "brown",
+        "attributes": [
+            { "country": "TUR", "latitude": 39.06160342, "longitude":35.16895529, "deaths": 1000, "color": "brown" },
+            { "country": "CYP", "latitude": 35.2627605, "longitude": 33.5684401, "deaths": 500, "color": "brown"}
+            
+        ]
+    },
+    {
+        "war": "War over Angola",
+        "color": "green",
+        "attributes": [
+            { "country": "COD", "latitude": -2.87746013, "longitude":23.64395637, "deaths": 100, "color": "green" },
+            { "country": "CUB", "latitude": 21.62290023, "longitude": -79.01606913, "deaths": 1500, "color": "green"},
+            { "country": "AGO", "latitude": -12.29336112, "longitude": 17.53736149, "deaths": 1500, "color": "green"}
+            
+        ]
+    }],   
+    "1976": [{
+        "war": "War over Angola",
+        "color": "green",
+        "attributes": [
+            { "country": "COD", "latitude": -2.87746013, "longitude":23.64395637, "deaths": 100, "color": "green" },
+            { "country": "CUB", "latitude": 21.62290023, "longitude": -79.01606913, "deaths": 1500, "color": "green"},
+            { "country": "AGO", "latitude": -12.29336112, "longitude": 17.53736149, "deaths": 1500, "color": "green"}
+            
+        ]
+    }],
+    "1977": [{
+        "war": "Second Ogaden War, Phase 2",
+        "color": "green",
+        "attributes": [
+            { "country": "SOM", "latitude": 4.75065195, "longitude": 45.70716243, "deaths": 8000, "color": "green" },
+            { "country": "CUB", "latitude": 21.62290023, "longitude": -79.01606913, "deaths": 700, "color": "green"},
+            { "country": "ETH", "latitude": 8.62278417, "longitude": 39.6008014, "deaths": 1800, "color": "green"}
+            
+        ]
+    }],
+    "1978": [{
+        "war": "Ugandian-Tanzanian",
+        "color": "steelblue",
+        "attributes": [
+            { "country": "UGA", "latitude": 1.27469024, "longitude": 32.36907536, "deaths": 1500, "color": "steelblue" },
+            { "country": "TZA", "latitude": -6.27565815, "longitude": 34.81310214, "deaths": 1000, "color": "steelblue"},
+            { "country": "LBY", "latitude": 27.03094247, "longitude": 18.00865782, "deaths": 500, "color": "steelblue"}
+            
+        ]
     }],
     "1991": [{
         "war": "Gulf War",
