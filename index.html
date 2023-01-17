@@ -46,14 +46,14 @@
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 10px;
     }
-
+    
     .menu-item {
         color: rgba(0, 0, 0, 1.0);
     }
-
+    
     .menu-item:hover {
         cursor: pointer;
-        filter: invert(10%) brightness(50%) sepia(50%) hue-rotate(246deg) contrast(143%); 
+        filter: invert(10%) brightness(50%) sepia(50%) hue-rotate(246deg) contrast(143%);
     }
 </style>
 
@@ -70,8 +70,7 @@
     </div>
     <svg id="globe"></svg>
     <div id="play" class="menu-item" style="position:absolute; bottom:0px; width:20px; height:40px; right:20px; ">
-        <svg fill="#000000" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-        width="24px" height="24px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+        <svg fill="#000000" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
             <path d="M256,0C114.609,0,0,114.609,0,256s114.609,256,256,256s256-114.609,256-256S397.391,0,256,0z M256,472
                     c-119.297,0-216-96.703-216-216S136.703,40,256,40s216,96.703,216,216S375.297,472,256,472z"/>
             <path d="M353.661,237.879l-154.174-89.594c-16.844-9.969-32.987-1.938-32.987,17.844v179.766c0,19.75,16.143,27.797,32.987,17.812
@@ -79,8 +78,7 @@
    </svg>
     </div>
     <div id="stop" class="menu-item" style="position:absolute; bottom:0px; width:20px; height:40px; right:20px; display:none">
-        <svg fill="#000000" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-            width="24px" height="24px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+        <svg fill="#000000" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
             <g>
             <path d="M256,0C114.609,0,0,114.609,0,256s114.609,256,256,256s256-114.609,256-256S397.391,0,256,0z M256,472
             c-119.297,0-216-96.703-216-216S136.703,40,256,40s216,96.703,216,216S375.297,472,256,472z"/>
@@ -95,6 +93,7 @@
         const height = 500;
 
         var year = "1823";
+        var stop = false;
 
         const config = {
             speed: 0.005,
@@ -107,7 +106,15 @@
             document.getElementById('play').style.display = "none";
             document.getElementById('stop').style.display = "inline-block";
 
+            stop = false;
+
             window.setTimeout(incrementYear, 1000);
+
+        });
+
+        document.getElementById('stop').addEventListener('click', (e) => {
+
+            stop = true;
 
         });
 
@@ -129,14 +136,16 @@
         function incrementYear() {
             var year = document.getElementById("year").value;
 
-            if (document.getElementById("year").value == parseInt(document.getElementById("year").getAttribute("max"))) {
+            if (stop ||
+                (document.getElementById("year").value == parseInt(document.getElementById("year").getAttribute("max")))) {
                 document.getElementById('stop').style.display = "none";
                 document.getElementById('play').style.display = "inline-block";
+                stop = false;
                 return;
             }
 
-            document.getElementById("year").value =  parseInt(year) + 1;
-            
+            document.getElementById("year").value = parseInt(year) + 1;
+
             window.setTimeout(incrementYear, 1000);
 
         }
@@ -200,8 +209,8 @@
             }
 
             document.getElementById("statistics").style.display = "inline-block";
-           
-            
+
+
             for (var location in locations[year]) {
                 var wars = [];
                 var deaths = 0;
