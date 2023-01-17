@@ -1030,6 +1030,15 @@
                 { "country": "GBR", "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 710, "color": "steelblue" }
             ]
     }],  
+    "1954": [
+        {
+            "war": "Off-shore Islands",
+            "color": "steelblue",
+            "attributes": [
+                { "country": "CHN", "latitude": 36.56176801, "longitude": 103.8190739, "deaths": 1003, "color": "steelblue" },
+                { "country": "TWN", "latitude": 23.75400343, "longitude": 120.9542726, "deaths": 1367, "color": "steelblue" }
+            ]
+    }],   
     "1956": [
         {
             "war": "Soviet Invasion of Hungary",
@@ -1038,6 +1047,18 @@
                 { "country": "RUS", "latitude": 61.98052168, "longitude": 96.68657347, "deaths": 1500, "color": "steelblue" },
                 { "country": "HUN", "latitude": 47.16277712, "longitude": 19.39559381, "deaths": 926, "color": "steelblue" }
             ]
+    },
+    {
+        "war": "Sinai War",
+        "color": "red",
+        "attributes": [
+            { "country": "ISR", "latitude": 31.4611019, "longitude": 35.00444995, "deaths": 189, "color": "red" },
+            { "country": "EGY", "latitude": 29.8618993, "longitude": 26.49593108, "deaths": 3000, "color": "red"},
+            { "country": "FRA", "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 10, "color": "red" },
+            { "country": "GBR", "latitude": 54.12387156, "longitude": -2.86563362, "deaths": 22, "color": "red" }
+
+  
+        ]
     }],   
     "1965": [
         {

@@ -46,6 +46,15 @@
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 10px;
     }
+
+    .menu-item {
+        color: rgba(0, 0, 0, 1.0);
+    }
+
+    .menu-item:hover {
+        cursor: pointer;
+        filter: invert(10%) brightness(50%) sepia(50%) hue-rotate(246deg) contrast(143%); 
+    }
 </style>
 
 <html>
@@ -60,17 +69,23 @@
         </table>
     </div>
     <svg id="globe"></svg>
-    <div id="up" style="position:absolute; bottom:0px; width:20px; height:40px; right:20px; ">
-        <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_429_11133)">
-            <circle cx="12" cy="12" r="9" stroke="#292929" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M14 12L11 13.7321L11 10.2679L14 12Z" stroke="#292929" stroke-width="2.5" stroke-linejoin="round"/>
+    <div id="play" class="menu-item" style="position:absolute; bottom:0px; width:20px; height:40px; right:20px; ">
+        <svg fill="#000000" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+        width="24px" height="24px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+            <path d="M256,0C114.609,0,0,114.609,0,256s114.609,256,256,256s256-114.609,256-256S397.391,0,256,0z M256,472
+                    c-119.297,0-216-96.703-216-216S136.703,40,256,40s216,96.703,216,216S375.297,472,256,472z"/>
+            <path d="M353.661,237.879l-154.174-89.594c-16.844-9.969-32.987-1.938-32.987,17.844v179.766c0,19.75,16.143,27.797,32.987,17.812
+                    l152.955-89.578C369.348,264.16,370.552,247.848,353.661,237.879z"/>
+   </svg>
+    </div>
+    <div id="stop" class="menu-item" style="position:absolute; bottom:0px; width:20px; height:40px; right:20px; display:none">
+        <svg fill="#000000" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+            width="24px" height="24px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+            <g>
+            <path d="M256,0C114.609,0,0,114.609,0,256s114.609,256,256,256s256-114.609,256-256S397.391,0,256,0z M256,472
+            c-119.297,0-216-96.703-216-216S136.703,40,256,40s216,96.703,216,216S375.297,472,256,472z"/>
+            <rect x="176" y="176" width="160" height="160"/>
             </g>
-            <defs>
-            <clipPath id="clip0_429_11133">
-            <rect width="24" height="24" fill="white"/>
-            </clipPath>
-            </defs>
         </svg>
     </div>
     <script src="node_modules/d3v4/build/d3.min.js"></script>
@@ -86,6 +101,16 @@
             verticalTilt: -30,
             horizontalTilt: 0
         }
+
+        document.getElementById('play').addEventListener('click', (e) => {
+            document.getElementById("year").value = 1823;
+            document.getElementById('play').style.display = "none";
+            document.getElementById('stop').style.display = "inline-block";
+
+            window.setTimeout(incrementYear, 1000);
+
+        });
+
         let locations = [];
         const worldGlobe = d3.select('#globe')
             .attr('width', width).attr('height', height);
@@ -100,6 +125,21 @@
         drawGlobe();
         drawGraticule();
         enableRotation(year);
+
+        function incrementYear() {
+            var year = document.getElementById("year").value;
+
+            if (document.getElementById("year").value == parseInt(document.getElementById("year").getAttribute("max"))) {
+                document.getElementById('stop').style.display = "none";
+                document.getElementById('play').style.display = "inline-block";
+                return;
+            }
+
+            document.getElementById("year").value =  parseInt(year) + 1;
+            
+            window.setTimeout(incrementYear, 1000);
+
+        }
 
         function drawGlobe() {
             d3.queue()
