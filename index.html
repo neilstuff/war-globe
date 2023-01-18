@@ -196,6 +196,8 @@
 
             markerGroup.selectAll('circle').remove();
 
+            var wars = [];
+
             var html = `<tr>`;
             html += `<td style="font-size:14px;"><b>Year</b></td>`;
             html += `<td style="font-size:14px; color:rgba(0,0,0,0.8)">${year}</td>`;
@@ -212,14 +214,15 @@
 
 
             for (var location in locations[year]) {
-                var wars = [];
                 var deaths = 0;
+                var stats = [];
 
                 wars = wars.concat(locations[year][location]["attributes"]);
+                stats = stats.concat(locations[year][location]["attributes"]);
 
-                for (var battles in wars) {
+                for (var battles in stats) {
 
-                    deaths += wars[battles].deaths;
+                    deaths += stats[battles].deaths;
 
                 }
 
