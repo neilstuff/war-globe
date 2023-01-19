@@ -235,7 +235,7 @@
                 html += `</tr>`;
                 for (var battles in stats) {
                     html += `<tr>`;
-                    html += `<td><div class="${stats[battles].country}" style="width:12px; height:9px"></div></td>`;
+                    html += `<td><div class="${stats[battles].country}" style="width:12px; height:9px; border:1px solid rgba(0,0,0,0.1)"></div></td>`;
                     html += `<td style="color:${locations[year][location].color}">${stats[battles].deaths}</td>`;
                     html += `</tr>`;
 

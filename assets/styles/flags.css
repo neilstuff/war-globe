@@ -14,12 +14,24 @@
     background-image: url("backgrounds/es.svg");
 }
 
+.DEU {
+    background-image: url("backgrounds/de.svg");
+}
+
+.DNK {
+    background-image: url("backgrounds/dk.svg");
+}
+
 .FRA {
     background-image: url("backgrounds/fr.svg");
 }
 
 .GBR {
     background-image: url("backgrounds/gb.svg");
+}
+
+.GRC {
+    background-image: url("backgrounds/gr.svg");
 }
 
 .ITL {
