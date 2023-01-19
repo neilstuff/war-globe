@@ -10,8 +10,8 @@
     background-image: url("backgrounds/br.svg");
 }
 
-.ESP {
-    background-image: url("backgrounds/es.svg");
+.CHN {
+    background-image: url("backgrounds/cn.svg");
 }
 
 .DEU {
@@ -20,6 +20,10 @@
 
 .DNK {
     background-image: url("backgrounds/dk.svg");
+}
+
+.ESP {
+    background-image: url("backgrounds/es.svg");
 }
 
 .FRA {
@@ -32,6 +36,10 @@
 
 .GRC {
     background-image: url("backgrounds/gr.svg");
+}
+
+.IRN {
+    background-image: url("backgrounds/ir.svg");
 }
 
 .ITL {
@@ -56,4 +64,8 @@
 
 .USA {
     background-image: url("backgrounds/us.svg");
+}
+
+.VAT {
+    background-image: url("backgrounds/va.svg");
 }
