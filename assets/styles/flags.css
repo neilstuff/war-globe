@@ -1,11 +1,47 @@
 .AFG {
-    background-image: url("af.svg");
+    background-image: url("backgrounds/af.svg");
+}
+
+.AUT {
+    background-image: url("backgrounds/at.svg");
 }
 
 .BRZ {
-    background-image: url("br.svg");
+    background-image: url("backgrounds/br.svg");
+}
+
+.ESP {
+    background-image: url("backgrounds/es.svg");
+}
+
+.FRA {
+    background-image: url("backgrounds/fr.svg");
+}
+
+.GBR {
+    background-image: url("backgrounds/gb.svg");
+}
+
+.ITL {
+    background-image: url("backgrounds/it.svg");
 }
 
 .JPN {
-    background-image: url("jp.svg");
+    background-image: url("backgrounds/jp.svg");
+}
+
+.MEX {
+    background-image: url("backgrounds/mx.svg");
+}
+
+.RUS {
+    background-image: url("backgrounds/ru.svg");
+}
+
+.TUR {
+    background-image: url("backgrounds/tr.svg");
+}
+
+.USA {
+    background-image: url("backgrounds/us.svg");
 }

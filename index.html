@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+<link rel="stylesheet" type="text/css" href="assets/styles/flags.css" />
+
 <style>
     input[type="range"] {
         position: absolute;
@@ -85,6 +88,8 @@
             <rect x="176" y="176" width="160" height="160"/>
             </g>
         </svg>
+    </div>
+
     </div>
     <script src="node_modules/d3v4/build/d3.min.js"></script>
     <script src="assets/javascripts/topojson.v1.js"></script>
@@ -220,18 +225,30 @@
                 wars = wars.concat(locations[year][location]["attributes"]);
                 stats = stats.concat(locations[year][location]["attributes"]);
 
+                html += `<tr>`;
+                html += `<td><b>War</b></td>`;
+                html += `<td style="color:${locations[year][location].color}">${locations[year][location].war}</td>`
+                html += `</tr>`;
+
+                html += `<tr>`;
+                html += `<td colspan="2" style="border-bottom:1px dotted rgba(0,0,0,0.2)"></td>`;
+                html += `</tr>`;
                 for (var battles in stats) {
+                    html += `<tr>`;
+                    html += `<td><div class="${stats[battles].country}" style="width:12px; height:9px"></div></td>`;
+                    html += `<td style="color:${locations[year][location].color}">${stats[battles].deaths}</td>`;
+                    html += `</tr>`;
 
                     deaths += stats[battles].deaths;
 
                 }
 
                 html += `<tr>`;
-                html += `<td><b>War</b></td>`;
-                html += `<td style="color:${locations[year][location].color}">${locations[year][location].war}</td>`
+                html += `<td colspan="2" style="border-bottom:1px solid rgba(0,0,0,0.2)"></td>`;
                 html += `</tr>`;
+
                 html += `<tr>`;
-                html += `<td><b>Deaths</b></td>`;
+                html += `<td><b>Total</b></td>`;
                 html += `<td style="color:${locations[year][location].color}">${deaths}</td>`
                 html += `</tr>`;
                 html += `<tr><td>&nbsp;</td></tr>`;
