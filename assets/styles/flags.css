@@ -6,16 +6,32 @@
     background-image: url("backgrounds/ar.svg");
 }
 
+.AUS {
+    background-image: url("backgrounds/au.svg");
+}
+
 .AUT {
     background-image: url("backgrounds/at.svg");
+}
+
+.BEL {
+    background-image: url("backgrounds/be.svg");
 }
 
 .BRA {
     background-image: url("backgrounds/br.svg");
 }
 
+.BGR {
+    background-image: url("backgrounds/bg.svg");
+}
+
 .BOL {
     background-image: url("backgrounds/bo.svg");
+}
+
+.CAN {
+    background-image: url("backgrounds/ca.svg");
 }
 
 .CHL {
@@ -28,6 +44,10 @@
 
 .COL {
     background-image: url("backgrounds/co.svg");
+}
+
+.CZE {
+    background-image: url("backgrounds/cz.svg");
 }
 
 .DEU {
@@ -50,8 +70,20 @@
     background-image: url("backgrounds/es.svg");
 }
 
+.EST {
+    background-image: url("backgrounds/ee.svg");
+}
+
+.ETH {
+    background-image: url("backgrounds/et.svg");
+}
+
 .FRA {
     background-image: url("backgrounds/fr.svg");
+}
+
+.FIN {
+    background-image: url("backgrounds/fi.svg");
 }
 
 .GBR {
@@ -64,6 +96,10 @@
 
 .GTM {
     background-image: url("backgrounds/gt.svg");
+}
+
+.HND {
+    background-image: url("backgrounds/hn.svg");
 }
 
 .HUN {
@@ -90,6 +126,22 @@
     background-image: url("backgrounds/jp.svg");
 }
 
+.KOR {
+    background-image: url("backgrounds/kr.svg");
+}
+
+.LEB {
+    background-image: url("backgrounds/lb.svg");
+}
+
+.LTU {
+    background-image: url("backgrounds/lt.svg");
+}
+
+.LVA {
+    background-image: url("backgrounds/lv.svg");
+}
+
 .MAR {
     background-image: url("backgrounds/ma.svg");
 }
@@ -98,16 +150,40 @@
     background-image: url("backgrounds/mx.svg");
 }
 
+.NIC {
+    background-image: url("backgrounds/nc.svg");
+}
+
+.NZL {
+    background-image: url("backgrounds/nl.svg");
+}
+
 .PER {
     background-image: url("backgrounds/pe.svg");
+}
+
+.POL {
+    background-image: url("backgrounds/pl.svg");
+}
+
+.PRT {
+    background-image: url("backgrounds/pt.svg");
 }
 
 .PRY {
     background-image: url("backgrounds/py.svg");
 }
 
+.ROU {
+    background-image: url("backgrounds/ro.svg");
+}
+
 .RUS {
     background-image: url("backgrounds/ru.svg");
+}
+
+.SAU {
+    background-image: url("backgrounds/sa.svg");
 }
 
 .SLV {
@@ -116,6 +192,10 @@
 
 .TUR {
     background-image: url("backgrounds/tr.svg");
+}
+
+.UKR {
+    background-image: url("backgrounds/ua.svg");
 }
 
 .USA {
@@ -128,4 +208,11 @@
 
 .VET {
     background-image: url("backgrounds/vn.svg");
+}
+
+.YEM {
+    background-image: url("backgrounds/ye.svg");
+}
+.YUG {
+    background-image: url("backgrounds/yu.svg");
 }
