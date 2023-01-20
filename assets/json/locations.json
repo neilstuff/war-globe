@@ -49,10 +49,10 @@
         },
         {
             "war": "First Schleswig-Holstein",
-            "color": "steelblue",
+            "color": "red",
             "attributes": [
-                { "country": "DNK", "latitude": 55.98126391, "longitude": 10.02799418, "deaths": 3500, "color": "steelblue" },
-                { "country": "DEU", "latitude": 51.10697903, "longitude": 10.38577693, "deaths": 2500, "color": "steelblue" }
+                { "country": "DNK", "latitude": 55.98126391, "longitude": 10.02799418, "deaths": 3500, "color": "red" },
+                { "country": "DEU", "latitude": 51.10697903, "longitude": 10.38577693, "deaths": 2500, "color": "red" }
             ]
         }
     ],

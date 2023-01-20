@@ -11,7 +11,7 @@ app.allowRendererProcessReuse = true;
 
 function createWindow () {
 
-    mainWindow = new BrowserWindow({width: config.mode == 'debug' ? 1200: 800, height: 560, 
+    mainWindow = new BrowserWindow({width: config.mode == 'debug' ? 1250: 800, height: 580, 
         resizable: false, autoHideMenuBar: true,  
         webPreferences: {
         }
