@@ -42,6 +42,10 @@
     background-image: url("backgrounds/ec.svg");
 }
 
+.EGY {
+    background-image: url("backgrounds/eg.svg");
+}
+
 .ESP {
     background-image: url("backgrounds/es.svg");
 }
@@ -76,6 +80,10 @@
 
 .ITA {
     background-image: url("backgrounds/it.svg");
+}
+
+.JOR {
+    background-image: url("backgrounds/jo.svg");
 }
 
 .JPN {
