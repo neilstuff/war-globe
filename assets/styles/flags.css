@@ -6,8 +6,16 @@
     background-image: url("backgrounds/ao.svg");
 }
 
+.ARE {
+    background-image: url("backgrounds/ae.svg");
+}
+
 .ARG {
     background-image: url("backgrounds/ar.svg");
+}
+
+.ARM {
+    background-image: url("backgrounds/am.svg");
 }
 
 .AUS {
@@ -16,6 +24,10 @@
 
 .AUT {
     background-image: url("backgrounds/at.svg");
+}
+
+.AZE {
+    background-image: url("backgrounds/az.svg");
 }
 
 .BEL {
@@ -28,6 +40,10 @@
 
 .BGR {
     background-image: url("backgrounds/bg.svg");
+}
+
+.BIH {
+    background-image: url("backgrounds/ba.svg");
 }
 
 .BOL {
@@ -46,16 +62,20 @@
     background-image: url("backgrounds/cn.svg");
 }
 
-.COL {
-    background-image: url("backgrounds/co.svg");
-}
-
 .COD {
     background-image: url("backgrounds/cd.svg");
 }
 
+.COL {
+    background-image: url("backgrounds/co.svg");
+}
+
 .CUB {
     background-image: url("backgrounds/cu.svg");
+}
+
+.CYP {
+    background-image: url("backgrounds/cy.svg");
 }
 
 .CZE {
@@ -80,6 +100,10 @@
 
 .ESP {
     background-image: url("backgrounds/es.svg");
+}
+
+.ERI {
+    background-image: url("backgrounds/er.svg");
 }
 
 .EST {
@@ -114,6 +138,10 @@
     background-image: url("backgrounds/hn.svg");
 }
 
+.HRV {
+    background-image: url("backgrounds/hr.svg");
+}
+
 .HUN {
     background-image: url("backgrounds/hu.svg");
 }
@@ -124,6 +152,10 @@
 
 .IRN {
     background-image: url("backgrounds/ir.svg");
+}
+
+.IRQ {
+    background-image: url("backgrounds/iq.svg");
 }
 
 .ISR {
@@ -154,6 +186,10 @@
     background-image: url("backgrounds/la.svg");
 }
 
+.LBY {
+    background-image: url("backgrounds/ly.svg");
+}
+
 .LEB {
     background-image: url("backgrounds/lb.svg");
 }
@@ -178,8 +214,16 @@
     background-image: url("backgrounds/nc.svg");
 }
 
+.NLD {
+    background-image: url("backgrounds/nl.svg");
+}
+
 .NZL {
     background-image: url("backgrounds/nl.svg");
+}
+
+.OMN {
+    background-image: url("backgrounds/om.svg");
 }
 
 .PAK {
@@ -188,6 +232,10 @@
 
 .PER {
     background-image: url("backgrounds/pe.svg");
+}
+
+.PHL {
+    background-image: url("backgrounds/ph.svg");
 }
 
 .POL {
@@ -222,8 +270,20 @@
     background-image: url("backgrounds/sv.svg");
 }
 
+.SOM {
+    background-image: url("backgrounds/so.svg");
+}
+
+.SVM {
+    background-image: url("backgrounds/svm.svg");
+}
+
 .SYR {
     background-image: url("backgrounds/sy.svg");
+}
+
+.THA {
+    background-image: url("backgrounds/th.svg");
 }
 
 .TUR {
@@ -231,7 +291,15 @@
 }
 
 .TWN {
+    background-image: url("backgrounds/tz.svg");
+}
+
+.TZA {
     background-image: url("backgrounds/tw.svg");
+}
+
+.UGA {
+    background-image: url("backgrounds/ug.svg");
 }
 
 .UKR {
@@ -246,7 +314,7 @@
     background-image: url("backgrounds/va.svg");
 }
 
-.VET {
+.VNM {
     background-image: url("backgrounds/vn.svg");
 }
 
@@ -256,4 +324,8 @@
 
 .YUG {
     background-image: url("backgrounds/yu.svg");
+}
+
+.ZAF {
+    background-image: url("backgrounds/za.svg");
 }

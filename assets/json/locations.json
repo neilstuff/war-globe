@@ -1394,7 +1394,7 @@
             "attributes": [
                 { "country": "BIH", "latitude": 44.17449912, "longitude": 17.76876588, "deaths": 2850, "color": "red" },
                 { "country": "YUG", "latitude": 44.82056, "longitude": 18.361296, "deaths": 1890, "color": "steelblue" },
-                { "country": "HRV", "latitude": 45.08047284, "longitude": 16.40413079, "deaths": 1890, "color": "steelblue" }
+                { "country": "HRV", "latitude": 45.08047284, "longitude": 16.40413079, "deaths": 500, "color": "steelblue" }
             ]
 
         }
