@@ -68,16 +68,14 @@
     .container::-webkit-scrollbar {
         width: 8px;
         background: rgba(0, 0, 0, 0.0);
-        border-radius: 3px; 
+        border-radius: 3px;
     }
-
+    
     .container::-webkit-scrollbar-thumb {
         border: 1px solid rgb(134, 134, 134);
         background: rgba(0, 0, 0, 0.05);
         border-radius: 3px;
     }
-
-
 </style>
 
 <html>
@@ -87,7 +85,12 @@
         <input class="slider" id="year" type="range" min="1823" max="2023" value="1823">
     </div>
 
-    <div id="statistics" class="normal container" style="position:absolute; left:40px; width:180px; top:10px; bottom:10px; overflow: auto;">
+    <div id="year" class="normal container" style="position:absolute; left:40px; width:180px; top:10px; bottom:10px;">
+        <table id="year-table">
+        </table>
+    </div>
+
+    <div id="statistics" class="normal container" style="position:absolute; left:40px; width:180px; top:40px; bottom:10px; overflow: auto;">
         <table id="war-table">
         </table>
     </div>
@@ -224,19 +227,21 @@
             var wars = [];
 
             var html = `<tr>`;
+
             html += `<td style="font-size:14px;"><b>Year</b></td>`;
             html += `<td style="font-size:14px; color:rgba(0,0,0,0.8)">${year}</td>`;
             html += `</tr>`;
 
-            html += `<tr><td style="font-size:8px;">&nbsp;</td></tr>`;
+            document.getElementById("year-table").innerHTML = html;
+
 
             if (!(year in locations)) {
-                document.getElementById("war-table").innerHTML = html;
                 return;
             }
 
             document.getElementById("statistics").style.display = "inline-block";
 
+            html = ``;
 
             for (var location in locations[year]) {
                 var deaths = 0;
