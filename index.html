@@ -259,12 +259,13 @@
                 html += `<td colspan="2" style="border-bottom:1px dotted rgba(0,0,0,0.2)"></td>`;
                 html += `</tr>`;
                 for (var battles in stats) {
+                    var battleDeaths = stats[battles].deaths;
                     html += `<tr>`;
                     html += `<td><div class="${stats[battles].country}" style="width:12px; height:9px; border:1px solid rgba(0,0,0,0.1)"></div></td>`;
-                    html += `<td style="color:${locations[year][location].color}">${stats[battles].deaths}</td>`;
+                    html += `<td style="color:${locations[year][location].color}">${battleDeaths.toLocaleString("en-US")}</td>`;
                     html += `</tr>`;
 
-                    deaths += stats[battles].deaths;
+                    deaths += battleDeaths;
 
                 }
 
@@ -274,7 +275,7 @@
 
                 html += `<tr>`;
                 html += `<td><b>Total</b></td>`;
-                html += `<td style="color:${locations[year][location].color}">${deaths}</td>`
+                html += `<td style="color:${locations[year][location].color}">${deaths.toLocaleString("en-US")}</td>`
                 html += `</tr>`;
                 html += `<tr><td>&nbsp;</td></tr>`;
 
