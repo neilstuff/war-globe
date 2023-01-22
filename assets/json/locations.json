@@ -549,7 +549,6 @@
             { "country": "TUR", "latitude": 39.06160342, "longitude": 35.16895529, "deaths": 325000, "color": "steelblue" },
             { "country": "JPN", "latitude": 37.59230065, "longitude": 138.0308921, "deaths": 300, "color": "steelblue" },
             { "country": "FRA", "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 1385000, "color": "steelblue" },
-            { "country": "GRC", "latitude": 39.07466973, "longitude": 22.95556207, "deaths": 1385000, "color": "steelblue" },
             { "country": "AUT", "latitude": 50.8798, "longitude": 4.70052, "deaths": 1200000, "color": "steelblue" }
         ]
     }],
@@ -570,7 +569,6 @@
             { "country": "TUR", "latitude": 39.06160342, "longitude": 35.16895529, "deaths": 325000, "color": "steelblue" },
             { "country": "JPN", "latitude": 37.59230065, "longitude": 138.0308921, "deaths": 300, "color": "steelblue" },
             { "country": "FRA", "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 1385000, "color": "steelblue" },
-            { "country": "GRC", "latitude": 39.07466973, "longitude": 22.95556207, "deaths": 1385000, "color": "steelblue" },
             { "country": "AUT", "latitude": 50.8798, "longitude": 4.70052, "deaths": 1200000, "color": "steelblue" }
         ]
     }],
@@ -591,7 +589,6 @@
             { "country": "TUR", "latitude": 39.06160342, "longitude": 35.16895529, "deaths": 325000, "color": "steelblue" },
             { "country": "JPN", "latitude": 37.59230065, "longitude": 138.0308921, "deaths": 300, "color": "steelblue" },
             { "country": "FRA", "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 1385000, "color": "steelblue" },
-            { "country": "GRC", "latitude": 39.07466973, "longitude": 22.95556207, "deaths": 1385000, "color": "steelblue" },
             { "country": "AUT", "latitude": 50.8798, "longitude": 4.70052, "deaths": 1200000, "color": "steelblue" }
         ]
     }],
