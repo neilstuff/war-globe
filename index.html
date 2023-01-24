@@ -236,6 +236,7 @@
 
 
             if (!(year in locations)) {
+                document.getElementById("war-table").innerHTML = "";
                 return;
             }
 
@@ -251,30 +252,40 @@
                 stats = stats.concat(locations[year][location]["attributes"]);
 
                 html += `<tr>`;
-                html += `<td><b>War</b></td>`;
-                html += `<td style="color:${locations[year][location].color}">${locations[year][location].war}</td>`
+                html += `<td style="color:${locations[year][location].color}; font-size:12px" colspan="3">`;
+                html += `${locations[year][location].war}`
                 html += `</tr>`;
 
                 html += `<tr>`;
-                html += `<td colspan="2" style="border-bottom:1px dotted rgba(0,0,0,0.2)"></td>`;
+                html += `<td colspan="3" style="width:160px; border-bottom:1px dotted rgba(0,0,0,0.2)"></td>`;
                 html += `</tr>`;
+
+                for (var battles in stats) {
+
+                    deaths += stats[battles].deaths;
+
+                }
+
                 for (var battles in stats) {
                     var battleDeaths = stats[battles].deaths;
+
+                    var width = ((battleDeaths * 100) / deaths) / 2;
+
                     html += `<tr>`;
                     html += `<td><div class="${stats[battles].country}" style="width:12px; height:9px; border:1px solid rgba(0,0,0,0.1)"></div></td>`;
+                    html += `<td style="width:50px;height:12px;"><div style="width:${width}px; height:6px; background:${locations[year][location].color}"><div> </td>`;
                     html += `<td style="color:${locations[year][location].color}">${battleDeaths.toLocaleString("en-US")}</td>`;
                     html += `</tr>`;
-
-                    deaths += battleDeaths;
 
                 }
 
                 html += `<tr>`;
-                html += `<td colspan="2" style="border-bottom:1px solid rgba(0,0,0,0.2)"></td>`;
+                html += `<td colspan="3" style="border-bottom:1px solid rgba(0,0,0,0.2)"></td>`;
                 html += `</tr>`;
 
                 html += `<tr>`;
                 html += `<td><b>Total</b></td>`;
+                html += `<td></td>`;
                 html += `<td style="color:${locations[year][location].color}">${deaths.toLocaleString("en-US")}</td>`
                 html += `</tr>`;
                 html += `<tr><td>&nbsp;</td></tr>`;
