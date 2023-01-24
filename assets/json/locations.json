@@ -869,6 +869,15 @@
             ]
         },
         {
+            "war": "Nomonhan",
+            "color": "brown",
+            "attributes": [
+                { "country": "RUS", "latitude": 49.72182, "longitude": 61.98052168, "deaths": 5000, "color": "red" },
+                { "country": "MNG", "latitude": 49.72182, "longitude": 61.98052168, "deaths": 5000, "color": "red" },
+                { "country": "JPN", "latitude": 39.59230065, "longitude": 138.0308921, "deaths": 20000, "color": "red" }
+            ]
+        },
+        {
             "war": "World War II",
             "color": "green",
             "attributes": [
@@ -1106,6 +1115,23 @@
             ]
         }
     ],
+    "1957": [{
+        "war": "IfniWar",
+        "color": "steelblue",
+        "attributes": [
+            { "country": "MAR", "latitude": 29.83762793, "longitude": -8.45616045, "deaths": 1000, "color": "steelblue" },
+            { "country": "ESP", "latitude": 40.24448626, "longitude": -3.64754874, "deaths": 1200, "color": "steelblue" }
+        ]
+    }],
+    "1958": [{
+        "war": "IfniWar",
+        "color": "steelblue",
+        "attributes": [
+            { "country": "MAR", "latitude": 29.83762793, "longitude": -8.45616045, "deaths": 1000, "color": "steelblue" },
+            { "country": "FRA", "latitude": 46.18700581, "longitude": 2.53618475, "deaths": 0, "color": "steelblue" },
+            { "country": "ESP", "latitude": 40.24448626, "longitude": -3.64754874, "deaths": 1200, "color": "steelblue" }
+        ]
+    }],
     "1965": [{
             "war": "Vietnam War, Phase 2",
             "color": "steelblue",
@@ -1351,15 +1377,25 @@
         ]
     }],
     "1977": [{
-        "war": "Second Ogaden War, Phase 2",
-        "color": "green",
-        "attributes": [
-            { "country": "SOM", "latitude": 4.75065195, "longitude": 45.70716243, "deaths": 8000, "color": "green" },
-            { "country": "CUB", "latitude": 21.62290023, "longitude": -79.01606913, "deaths": 700, "color": "green" },
-            { "country": "ETH", "latitude": 8.62278417, "longitude": 39.6008014, "deaths": 1800, "color": "green" }
+            "war": "Second Ogaden War, Phase 2",
+            "color": "steelblue",
+            "attributes": [
+                { "country": "SOM", "latitude": 4.75065195, "longitude": 45.70716243, "deaths": 8000, "color": "steelblue" },
+                { "country": "CUB", "latitude": 21.62290023, "longitude": -79.01606913, "deaths": 700, "color": "steelblue" },
+                { "country": "ETH", "latitude": 8.62278417, "longitude": 39.6008014, "deaths": 1800, "color": "steelblue" }
 
-        ]
-    }],
+            ]
+        },
+        {
+            "war": "Vietnamese-Cambodian",
+            "color": "green",
+            "attributes": [
+                { "country": "KHM", "latitude": 12.72004932, "longitude": 104.9069431, "deaths": 5000, "color": "green" },
+                { "country": "VNM", "latitude": 16.64601451, "longitude": 106.2991386, "deaths": 3000, "color": "green" }
+
+            ]
+        }
+    ],
     "1978": [{
         "war": "Ugandian-Tanzanian",
         "color": "steelblue",
